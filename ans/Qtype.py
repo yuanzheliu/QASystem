@@ -1,4 +1,4 @@
-from nltk import word_tokenize, pos_tag
+from nltk import word_tokenize, pos_tag,ne_chunk
 from TopKsentence import *
 
 class QuestionType():
@@ -31,6 +31,16 @@ class QuestionType():
             dic_type[q] = self.wh_type(q_pos)
         return dic_type
 
+    def search_word(self,dict):
+        search = {}
+        person = {'who', 'whom','whose'}
+        for i, (key, v) in enumerate(dict.items()):
+            list = []
+            for wh in v:
+                if wh in person:
+                    list.append('PERSON')
+            search[key] = list
+        return search
 
 if __name__ == '__main__':
     article_file, questions_file = sys.argv[1:]
@@ -38,4 +48,5 @@ if __name__ == '__main__':
     article_sentence = GS.read_article()
     questions = GS.read_questions()
     QT = QuestionType(questions)
-    print(QT.q_type())
+    dic_type = QT.q_type()
+    search_word = QT.search_word(dic_type)
