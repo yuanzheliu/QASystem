@@ -36,25 +36,51 @@ class WHQ():
 
         return continuous_chunk
 
-    def person(self,question,sentences):
-        ans = 'Sorry, I don\'t know'
-        q_chunk = ne_chunk(pos_tag(word_tokenize(question)))
-        print(q_chunk)
-        tmp=[]
+    '''
+    return the NER for each sentence
+    '''
+    def sentence_ner(self,sentences):
+        st_ner = {}
         for st in sentences:
+            ner={}
             st_chunk = ne_chunk(pos_tag(word_tokenize(st)))
-            print(st_chunk)
-        return ans if len(tmp)==0 else ' '.join(tmp)
+            for i in st_chunk:
+                if type(i) == Tree:
+                    current_chunk = (' '.join([token for token, pos in i.leaves()]))
+                    if i.label() in ner:
+                        ner[i.label()].append(current_chunk)
+                    else:
+                        ner[i.label()] = [current_chunk]
+            st_ner[st] = ner
+        return st_ner
+
+
+    def ans_each_type(self,type,st_ner):
+        ans = 'Sorry, I don\'t know'
+        for j, (st, ner_list) in enumerate(st_ner.items()):
+            for (ner, item) in ner_list.items():
+                if type =='PERSON' and ner =='PERSON':
+                    ans = item[0]
+                elif type == 'ORGANIZATION' and (ner =='ORGANIZATION' or ner =='GPE'):
+                    ans = item[0]
+        return ans
 
     def checkType(self):
+        '''
+        :search_q: question, type
+        :q_s_pair: question->sentences_pair
+
+        :return: answer for each question
+        '''
         res = {}
         for i,(key,v) in enumerate(self.search_q.items()):
             ans = 'Sorry, I don\'t know'
+            st_ner = self.sentence_ner(self.q_s_pair[key])
             for type in v:
-                if type =='PERSON':
-                    ans = self.person(key,self.q_s_pair[key])
+                ans = self.ans_each_type(type,st_ner)
             res[key] = ans
         return res
+
 if __name__ == '__main__':
     article_file, questions_file = sys.argv[1:]
     GS = GetSentences(article_file, questions_file, 1)
@@ -65,4 +91,7 @@ if __name__ == '__main__':
     dic_type = QT.q_type()
     search_word = QT.search_word(dic_type)
     whq = WHQ(search_word,dic)
-    print(whq.checkType())
+    ans = whq.checkType()
+    for i,(q,a) in enumerate(ans.items()):
+        print('Question: {0}'.format(q))
+        print('Answer: {0}'.format(a))
