@@ -1,5 +1,6 @@
-import spacy
+#import spacy
 from collections import Counter
+from nltk import sent_tokenize
 from fuzzywuzzy import fuzz
 
 
@@ -18,13 +19,18 @@ class ArticleQuestions():
 
             Output:
             - article_sentences: a list of article sentences as strings
-        '''
+        
         nlp = spacy.load('en_core_web_sm')
         with open(article_file, 'r') as f:
             article = f.read()
         about_article = nlp((article))
         article_sentences = list(about_article.sents)
         article_sentences = [str(s).rstrip() for s in article_sentences]
+        return article_sentences
+        '''
+        with open(article_file,'r',encoding="utf-8") as f:
+            article = f.read()
+        article_sentences = sent_tokenize(article)
         return article_sentences
 
     def read_questions(self, questions_file):

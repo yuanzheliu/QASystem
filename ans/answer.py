@@ -1,5 +1,7 @@
+
 import sys
 from question_type import *
+from top_k_sentences import *
 from nltk import ne_chunk
 from nltk.tree import Tree
 from nltk.tag import StanfordNERTagger
@@ -65,7 +67,7 @@ class WHQ():
             Output:
             - answer: a string phrase to answer the question
         '''
-        answer = "Sorry, I don't know"
+        answer = "Sorry, I don't know."
         for sentence, ner_dict in sentences_ner.items():
             for (ner, item) in ner_dict.items():
                 if type == ner or (type == 'ORGANIZATION' and ner == 'GPE'):
@@ -74,8 +76,9 @@ class WHQ():
 
 
 if __name__ == '__main__':
-    article_file, questions_file = sys.argv[1:]
-
+    if len(sys.argv) !=3:
+        exit(-1)
+    article_file, questions_file = sys.argv[1],sys.argv[2]
     # Process article and questions
     article_questions = ArticleQuestions(article_file, questions_file, 1)
     questions_top_sentences = article_questions.question_article_similarity()
@@ -84,6 +87,7 @@ if __name__ == '__main__':
 
     whq = WHQ(qt.questions_type_dict, questions_top_sentences)
     ans = whq.find_answers()
+
     for i, (q, a) in enumerate(ans.items()):
-        print('Question {}: {}'.format(i, q))
-        print('Answer: {}\n'.format(a))
+        a = a+'\n'
+        sys.stdout.buffer.write(a.encode('utf8'))
