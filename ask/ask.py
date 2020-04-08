@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from ask_sentence import ask_sentence
 import sys
 from nltk import sent_tokenize
@@ -45,15 +47,8 @@ if __name__ == "__main__":
     result = model.ask_questions()
     questions = [q[1] for q in result]
     answers = [q[2] for q in result]
-    print('***************************')
     i = 1
     for q in questions:
         print("Q{} {}".format(i,q))
         i += 1    
-    i = 1
-    print('***************************')
-    for a in answers:
-        print("A{} {}".format(i,a))
-        i += 1
-    print('***************************')
 
