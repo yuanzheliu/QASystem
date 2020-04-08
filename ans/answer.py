@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 
 import sys
 from question_type import *
@@ -89,5 +90,5 @@ if __name__ == '__main__':
     ans = whq.find_answers()
 
     for i, (q, a) in enumerate(ans.items()):
-        a = a+'\n'
+        a =  "A{} {}\n".format(i, a)
         sys.stdout.buffer.write(a.encode('utf8'))
