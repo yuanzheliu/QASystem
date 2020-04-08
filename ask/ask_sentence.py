@@ -4,8 +4,6 @@ nlp = spacy.load("en_core_web_sm")
 
 
 
-
-
 def ask_sentence(text):
     question = ''
     answer = ''
