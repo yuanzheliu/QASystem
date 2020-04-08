@@ -90,5 +90,5 @@ if __name__ == '__main__':
     ans = whq.find_answers()
 
     for i, (q, a) in enumerate(ans.items()):
-        a =  "A{} {}\n".format(i, a)
+        a =  "A{} {}\n".format(i+1, a)
         sys.stdout.buffer.write(a.encode('utf8'))
