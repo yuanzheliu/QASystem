@@ -1,4 +1,11 @@
-#!/usr/bin/env python3
+import sys
+from nltk import ne_chunk, word_tokenize, pos_tag
+from nltk.tree import Tree
+from nltk.tag import StanfordNERTagger
+from question_type import QuestionType
+from top_k_sentences import ArticleQuestions
+from yes_no import yes_no_answer
+
 
 import sys
 from question_type import *
@@ -9,9 +16,10 @@ from nltk.tag import StanfordNERTagger
 
 
 class WHQ():
-    def __init__(self, questions_type_dict, questions_top_sentences):
-        self.questions_type_dict = questions_type_dict
-        self.questions_top_sentences = questions_top_sentences
+    def __init__(self, question, qtype, top_sentences):
+        self.question = question
+        self.qtype = qtype
+        self.top_sentences = top_sentences
         self.ner = StanfordNERTagger('english.muc.7class.distsim.crf.ser.gz',
                                      'stanford-ner.jar')
 
@@ -19,28 +27,20 @@ class WHQ():
         '''
             Find the correct phrase in a sentence's ner dictionary to answer
             the question of type 'type'
-
             Output:
             - answer: a string phrase to answer the question
         '''
-        result = {}
-        for question, types in self.questions_type_dict.items():
-            answer = "Sorry, I don't know"
-            sentences_ner = self.sentence_ner(self.questions_top_sentences[question])
-
-            for type in types:  # buggy: many types, one answer!
-                answer = self.answer_for_type(type, sentences_ner)
-            result[question] = answer
-        return result
+        answer = "Sorry, I don't know"
+        sentences_ner = self.sentence_ner(self.top_sentences)
+        answer = self.answer_for_type(self.qtype, sentences_ner)
+        return answer
 
     def sentence_ner(self, sentences):
         '''
             Generate a dictionary which maps each sentence to its NER dictionary
             which consists of (type, [phrases]) mappings.
-
             Input:
             - sentences: a list of top k sentences as strings
-
             Output:
             - sentences_ner: a dictionary of (sentence, {type: [phrases]})
         '''
@@ -59,12 +59,10 @@ class WHQ():
         '''
             Find the correct phrase in a sentence's ner dictionary to answer
             the question of type 'type'
-
             Input:
             - type: the question's type as a string
             - sentences_ner: a dictionary mapping top k sentences to their NER
               dictionaries
-
             Output:
             - answer: a string phrase to answer the question
         '''
@@ -77,18 +75,25 @@ class WHQ():
 
 
 if __name__ == '__main__':
-    if len(sys.argv) !=3:
-        exit(-1)
-    article_file, questions_file = sys.argv[1],sys.argv[2]
+    article_file, questions_file = sys.argv[1:]
+
     # Process article and questions
     article_questions = ArticleQuestions(article_file, questions_file, 1)
+
+    # Narrow down search range
     questions_top_sentences = article_questions.question_article_similarity()
 
+    # Figure out the type of each question
     qt = QuestionType(article_questions.questions)
 
-    whq = WHQ(qt.questions_type_dict, questions_top_sentences)
-    ans = whq.find_answers()
+    answer = {}
+    for question, qtype in qt.questions_type_dict.items():
+        if qtype == 'YESNO':
+            answer[question] = yes_no_answer(questions_top_sentences[question], question)
+        else:
+            whq = WHQ(question, qtype, questions_top_sentences[question])
+            answer[question] = whq.find_answers()
 
-    for i, (q, a) in enumerate(ans.items()):
-        a =  "A{} {}\n".format(i+1, a)
-        sys.stdout.buffer.write(a.encode('utf8'))
+    for i, (q, a) in enumerate(answer.items()):
+        print('Question {}: {}'.format(i+1, q))
+        print('Answer: {}\n'.format(a))
