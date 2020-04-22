@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from ask_sentence import ask_sentence
+from ask_sentence import *
 import sys
 from nltk import sent_tokenize
 import heapq
@@ -13,7 +13,7 @@ class model_ask():
         '''
         self.num_questions = num_questions
         self.sentences = sentences
-        self.questions = [] # A list of tuple (score, 'Question', 'Answer'), score is the quality of a question. 
+        self.questions = [] # A list of tuple (score, 'Question', 'Answer'), score is the quality of a question.
 
     def ask_questions(self):
         number = 1
@@ -26,9 +26,6 @@ class model_ask():
                     heapq.heappush(self.questions,tmp)
                     number += 1
         return self.questions
-
-
-
 
 if __name__ == "__main__":
     file_path, num_questions  = "", 0
@@ -50,5 +47,8 @@ if __name__ == "__main__":
     for i,q in enumerate(questions):
         a = "Q{} {}\n".format(i+1,q)
         sys.stdout.buffer.write(a.encode('utf8'))
+        sys.stdout.buffer.write('-----'.encode('utf8'))
+        sys.stdout.buffer.write(answers[i].encode('utf8'))
+        sys.stdout.buffer.write('\n'.encode('utf8'))
 
 
