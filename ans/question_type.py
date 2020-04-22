@@ -1,68 +1,84 @@
-from nltk import word_tokenize, pos_tag
-from top_k_sentences import *
+'''
+As of NLTK v3.3, users should avoid the Stanford NER or POS taggers from nltk.tag, 
+and avoid Stanford tokenizer/segmenter from nltk.tokenize. 
+They are currently deprecated and will be removed in due time.
+'''
+from nltk import word_tokenize
+from nltk.parse import CoreNLPParser  # use this parser
 
 
 class QuestionType():
     def __init__(self, questions):
-        self.questions_type_dict = self.q_type(questions)
+        self.questions_type_dict = self.question_type(questions)
 
-    def q_type(self, questions):
+    def question_type(self, questions):
         '''
             Tokenize and part-of-speech tagging each question in questions,
-            find the wh-word in each question, and return the {question:
-            [wh-words]} dictionary
+            find the indicator word in each question, and return the {question:
+            type} dictionary
 
             Input:
             - questions: a list of strings with each string as a question
 
             Output:
-            - questions_wh_dict
+            - questions_type_dict: a dictionary of {question: type}
         '''
-        questions_wh_dict = {}
+        # Lexical Parser
+        #parser = CoreNLPParser(url='http://localhost:9000')
+        questions_type_dict = {}
+        '''
         for question in questions:
-            token = word_tokenize(question)
-            token_pos = pos_tag(token)
-            questions_wh_dict[question] = self.wh_type(token_pos)
-        return questions_wh_dict
-
-    def wh_type(self, q_pos):
+            parse_question = list(parser.raw_parse(question))
+            parse_tree = parse_question[0][0]
+            questions_type_dict[question] = self.type(parse_tree,question.lower())
         '''
-            Extract wh-words from a tokenized and tagged question, assign types
-            ('PERSON', 'GPE', 'TIME', 'REASON', 'ORGANIZATION', 'WAY', 'unknown')
-            to each wh-word.
+        for question in questions:
+            questions_type_dict[question] = self.type(question.lower())
+        return questions_type_dict
+    
+    def get_wh_type(self,tokens):
+        question_type = 'WHAT'
+        multi_answer = ['are','were','they','them','our','we']
+        check_len = 5
+        if len(tokens)<5:
+            check_len = len(tokens)
+        if 'who' == tokens[0] or 'whom' == tokens[0] or 'whose' == tokens[0]:
+            question_type = 'PERSON'
+        elif 'when' == tokens[0]:
+            question_type = 'TIME'
+        elif 'where' == tokens[0]:
+            question_type = 'LOCATION'
+        elif 'why' == tokens[0]:
+            question_type = 'WHY'
+        elif 'how' == tokens[0]:
+            question_type = 'HOW'
+        
+        # multi-answers question
+        for t in tokens[:check_len]:
+            if t in multi_answer:
+                question_type = 'MULTI'
+                break
+        return question_type
+    '''  
+    def type(self, parse_tree, question):
+        question_type = 'unknown'
+        yesno = ["is", "are", "was", "were", "does", "did", "have", "has",
+                 "had", "can", "could", "will", "would"]
+        tokens = word_tokenize(question)
 
-            Input:
-            - q_pos: a tokenized and tagged sentence as a list of (token, tag)
-              tuples
-
-            Output:
-            - wh_types: a list of types of wh-words
-        '''
-        # be careful for whom->NNP and whose->JJ questions!!
-        poses = ['WP', 'WP$', 'WRB', 'WDT']
-        person = ['who', 'whom', 'whose']
-        location = ['where']
-        time = ['when']
-        reason = ['why']
-        object = ['what', 'which']
-        way = ['how']
-
-        wh_types = []
-        for token, pos in q_pos:
-            if pos in poses:
-                wh = token.lower()
-                if wh in person:
-                    wh_types.append('PERSON')
-                elif wh in location:
-                    wh_types.append('GPE')
-                elif wh in time:
-                    wh_types.append('TIME')
-                elif wh in reason:
-                    wh_types.append('REASON')
-                elif wh in object:
-                    wh_types.append('ORGANIZATION')
-                elif wh in way:
-                    wh_types.append('WAY')
-                else:
-                    wh_types.append('unknown')
-        return wh_types
+        if parse_tree._label == 'SBARQ' or question.startswith('wh') or question.startswith('ho'):
+            question_type = self.get_wh_type(parse_tree,tokens)
+        elif parse_tree._label == 'SQ' or tokens[0] in yesno:
+            question_type = 'YESNO'
+        return question_type
+    '''
+    def type(self,question):
+        question_type = 'WHAT'
+        tokens = word_tokenize(question)
+        yesno = ["is", "are", "was", "were", "does", "did", "have", "has",
+                 "had", "can", "could", "will", "would"]
+        if question.startswith('wh') or question.startswith('ho'):
+            question_type = self.get_wh_type(tokens)
+        elif tokens[0] in yesno:
+            question_type ='YESNO'
+        return question_type
