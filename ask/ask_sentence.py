@@ -148,7 +148,7 @@ def ask_bool_question(text):
     if len(body) > 0:
         body = body[0:len(body)-1]
 
-    pos = len(body) + len(key)
+    pos = len(body) + len(key) + 1
     if pos != None:
         body += text[pos:len(text)]
 
