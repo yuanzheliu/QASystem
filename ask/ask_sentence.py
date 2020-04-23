@@ -117,8 +117,10 @@ def remove_clause(text):
 '''
 
 def ask_bool_question(text):
-    if ',' in text:
-        return None
+    omit_list = ['and', 'or','but',',']
+    for o in omit_list:
+        if o in text:
+            return None
     bool_text = ['is','are','was','were']
     doc = nlp(text)
     exist = False
