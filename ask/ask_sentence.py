@@ -28,14 +28,14 @@ def analyze_structure(s):
     if subject_word == None:
         return None, None, None, None
 
-    count = 0
+    score = 0
     for chunk in parsed_text.noun_chunks:
-        count += 1
+        score -= 1
         if  subject_word in chunk.text:
             subject =  chunk.text
             break
 
-    return subject_word, subject, verb, count
+    return subject_word, subject, verb, score
 
 def get_subject_type(subject):
     question = ''
@@ -89,6 +89,7 @@ def pre_check_sentence(text):
             return False
     return True
 
+'''
 def remove_clause(text):
     doc = nlp(text)
     body = ""
@@ -113,7 +114,7 @@ def remove_clause(text):
         body += text[pos_end+2:len(text)]
 
     return body
-
+'''
 
 def ask_bool_question(text):
     if ',' in text:
@@ -164,7 +165,7 @@ def ask_bool_question(text):
         body = body[0:len(body) - 1]
 
     question = "{} {}?".format(key, body)
-    return (score, question, "")
+    return (score, question,"", "yesno")
 
 def ask_suject_question(text):
     subject_word, subject, verb, score = analyze_structure(text)
@@ -249,6 +250,14 @@ def ask_time_question(text):
 '''
 
 def ask_sentence(text):
+    res = []
     if not pre_check_sentence(text):
-        return None
-    return [ask_bool_question(text), ask_suject_question(text)]
+        return res
+    q = ask_bool_question(text)
+    if q != None:
+        res.append(q)
+    q = ask_suject_question(text)
+    if q != None:
+        res.append(q)
+    return res
+

@@ -25,7 +25,7 @@ class model_ask():
         if len(queue) >= self.num_questions: 
             heapq.heappushpop(queue, question)
         else: 
-            heapq.heappush(self.questions,question)
+            heapq.heappush(queue,question)
 
     def generate_question(self):
         for s in self.sentences: 
@@ -34,18 +34,19 @@ class model_ask():
                 continue 
             else: 
                 for (score,question,answer,q_type) in qs:
-                    if q_type == 'who': 
-                        add_question(self.who, (score,question,answer))
-                    elif q_type == 'what': 
-                        add_question(self.what, (score,question,answer))
-                    elif q_type == 'when': 
-                        add_question(self.when, (score,question,answer))
-                    elif q_type == 'where': 
-                        add_question(self.where, (score,question,answer))
-                    elif q_type == 'why': 
-                        add_question(self.why, (score,question,answer))
+
+                    if q_type == 'Who':
+                        self.add_question(self.who, (score,question,answer))
+                    elif q_type == 'What':
+                        self.add_question(self.what, (score,question,answer))
+                    elif q_type == 'When':
+                        self.add_question(self.when, (score,question,answer))
+                    elif q_type == 'Where':
+                        self.add_question(self.where, (score,question,answer))
+                    elif q_type == 'Why':
+                        self.add_question(self.why, (score,question,answer))
                     elif q_type == 'yesno': 
-                        add_question(self.yesno, (score,question,answer))
+                        self.add_question(self.yesno, (score,question,answer))
 
     def ask_question(self):
         result = []
@@ -94,11 +95,17 @@ if __name__ == "__main__":
         model = model_ask(article_sentences, num_questions)
     
     model.generate_question()
-    result = model.ask_questions()
-    questions = [q[1] for q in result]
-    answers = [q[2] for q in result]
-    i = 1
-    for q in questions:
-        print("Q{} {}".format(i,q))
-        i += 1    
+    print(model.who)
+    print(model.what)
+    print(model.when)
+    print(model.where)
+    print(model.why)
+    print(model.yesno)
+    # result = model.ask_question()
+    # questions = [q[1] for q in result]
+    # answers = [q[2] for q in result]
+    # i = 1
+    # for q in questions:
+    #     print("Q{} {}".format(i,q))
+    #     i += 1
 
