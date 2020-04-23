@@ -89,33 +89,6 @@ def pre_check_sentence(text):
             return False
     return True
 
-'''
-def remove_clause(text):
-    doc = nlp(text)
-    body = ""
-    exist = False
-    for token in doc:
-        t = token.text
-        t = t.lower()
-        if t in type_list:
-            exist = True
-            break
-        body += t
-        body += " "
-
-    if not exist:
-        return text
-    if len(body) > 0:
-        body = body[0:len(body)-1]
-        if body[len(body)-1] == ',':
-            body = body[0:len(body)-1]
-    pos_end = text.find(',', len(body))
-    if pos_end != None:
-        body += text[pos_end+2:len(text)]
-
-    return body
-'''
-
 def ask_bool_question(text):
     omit_list = ['and', 'or','but',',']
     for o in omit_list:
@@ -180,78 +153,6 @@ def ask_suject_question(text):
         return None
     question = construct_question(subject, verb, text, type)
     return (score, question, subject, type)
-
-'''
-def ask_time_question(text):
-    question = ""
-    answer = ""
-    time_key_list = ['in', 'at']
-    time_type_list = ['DATE', 'TIME']
-    exist = False
-    key = ""
-
-    doc_text = nlp(text)
-    body = ""
-    for token in doc_text:
-        t = token.text
-        t_lower = t.lower()
-        if t_lower in time_key_list:
-            key = t
-            exist = True
-            break
-        body += t
-        body += ' '
-
-    if not exist:
-        return None
-
-    if len(body) > 0:
-        body = body[0:len(body)-1]
-
-    pos_start = len(body)
-    pos_end = text.find(',',pos_start+len(key)+1)
-    if pos_end == -1:
-        pos_end = text.find('.',pos_start+1)
-
-    if pos_end != -1:
-        if len(body) > 0 and body[len(body) - 1] == ',':
-            body = body[0:len(body) - 1]
-
-        body = body.strip()
-        if len(body) == 0:
-            body = text[pos_end+2:len(text)]
-        else:
-            body += text[pos_end+1:len(text)]
-
-    time_str = text[pos_start+len(key)+1:pos_end]
-    doc = nlp(time_str)
-    is_time = False
-
-    for token in doc:
-        if token.ent_type_ in time_type_list:
-            answer =time_str
-            is_time = True
-
-    if not is_time:
-        return None
-
-    question += 'When '
-
-    # process the body
-    body = body[0].lower() + body[1:]
-
-    if body[len(body)-1] == '.' or ',':
-        body = body[0:len(body)-1]
-
-    body = body.strip()
-
-    if body.split(' ')[0] in type_list:
-        question += ','
-
-    question += body
-    question += '?'
-    return (1, question, answer, 'when')
-'''
 
 def ask_sentence(text):
     res = []
