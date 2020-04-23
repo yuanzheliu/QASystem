@@ -2,10 +2,11 @@ import nltk
 import spacy
 
 init_score = 0
-type_list = ['who', 'where', 'what', 'how', 'which', 'when', 'while', 'why']
+type_list = ['who', 'where', 'what', 'how', 'which', 'when', 'while', 'why','that']
 nlp = spacy.load("en_core_web_lg")
 
 def analyze_structure(s):
+    verb_type_list = ['VBD', 'VBG','VBN','VBP','VBZ']
     parsed_text = nlp(s)
 
     subject = None
@@ -25,6 +26,11 @@ def analyze_structure(s):
             if subject_word != None:
                 break
 
+    if verb != None:
+        type = nltk.pos_tag(nltk.word_tokenize(verb))[0][1]
+        if type not in verb_type_list:
+            verb = None
+
     if subject_word == None:
         return None, None, None, None
 
@@ -34,6 +40,7 @@ def analyze_structure(s):
         if  subject_word in chunk.text:
             subject =  chunk.text
             break
+
 
     return subject_word, subject, verb, score
 
@@ -63,6 +70,38 @@ def get_subject_type(subject):
     else:
         return None
     return question
+
+def remove_clause_helper(text):
+    doc = nlp(text)
+    body = ""
+    exist = False
+    for token in doc:
+        t = token.text
+        t = t.lower()
+        if t in type_list:
+            exist = True
+            break
+        body += t
+        body += " "
+
+    if not exist:
+        return False, text
+
+    if len(body) > 0:
+        body = body.strip()
+        if body[len(body)-1] == ',':
+            body = body[0:len(body)-1]
+    pos_end = text.find(',', len(body))
+    if pos_end != -1:
+        body += text[pos_end+1:len(text)]
+
+    return True, body
+
+def remove_clause(text):
+    exist, text = remove_clause_helper(text)
+    while exist:
+        exist, text = remove_clause_helper(text)
+    return text
 
 def construct_question(subject, verb, sentence, type):
     question = type
@@ -158,6 +197,7 @@ def ask_sentence(text):
     res = []
     if not pre_check_sentence(text):
         return res
+    text = remove_clause(text)
     q = ask_bool_question(text)
     if q != None:
         res.append(q)
@@ -165,4 +205,3 @@ def ask_sentence(text):
     if q != None:
         res.append(q)
     return res
-

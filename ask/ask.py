@@ -101,7 +101,7 @@ if __name__ == "__main__":
     questions = [q[1] for q in result]
     answers = [q[2] for q in result]
     i = 1
-    for q in questions:
-        print("Q{} {}".format(i,q))
-        i += 1
+    for (i, q) in enumerate(questions):
+        a = "Q{} {}\n".format(i + 1, q)
+        sys.stdout.buffer.write(a.encode('utf8'))
 
