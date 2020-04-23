@@ -97,7 +97,6 @@ if __name__ == "__main__":
         model = model_ask(article_sentences, num_questions)
     
     model.generate_question()
-
     result = model.ask_question()
     questions = [q[1] for q in result]
     answers = [q[2] for q in result]

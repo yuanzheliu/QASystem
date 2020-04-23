@@ -119,7 +119,7 @@ def remove_clause(text):
 def ask_bool_question(text):
     if ',' in text:
         return None
-    bool_text = ['is','are']
+    bool_text = ['is','are','was','were']
     doc = nlp(text)
     exist = False
     key = ""
@@ -169,6 +169,8 @@ def ask_bool_question(text):
 
 def ask_suject_question(text):
     subject_word, subject, verb, score = analyze_structure(text)
+    if verb == None:
+        return None
     if subject_word == None or subject == None:
         return None
     type = get_subject_type(subject_word)
