@@ -44,11 +44,11 @@ if __name__ == "__main__":
     result = model.ask_questions()
     questions = [q[1] for q in result]
     answers = [q[2] for q in result]
+
     for i,q in enumerate(questions):
         a = "Q{} {}\n".format(i+1,q)
         sys.stdout.buffer.write(a.encode('utf8'))
         sys.stdout.buffer.write('-----'.encode('utf8'))
         sys.stdout.buffer.write(answers[i].encode('utf8'))
         sys.stdout.buffer.write('\n'.encode('utf8'))
-
 
