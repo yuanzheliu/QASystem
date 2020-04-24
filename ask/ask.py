@@ -89,7 +89,6 @@ if __name__ == "__main__":
         num_questions = int(sys.argv[2])
     except:
         print('usage: python ./ask.py <path to file> <number of questions>')
-    
     model = None
     with open(file_path, 'r', encoding= 'utf-8') as f: 
         article = f.read()

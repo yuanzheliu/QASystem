@@ -1,0 +1,660 @@
+Q1 What of egypt,are scarce and historians regard the history of the era as literally'written in stone'and largely architectural i?
+Q2 Where attained its first continuous peak of civilization–the first of three so-called"kingdom"periods(followed by the middle kingdom and new kingdom?
+Q3 Was 2649–2150 BC )one of the most dynamic periods in the development of Egyptian art?
+Q4 What of evidence has led egyptologist vassil dobrev to propos?
+Q5 Where is perhaps best known for the large number of pyramids constructed at this time as burial places for Egypt's kings?
+Q6 Was it in this era under the rule of the Pharaoh?
+Q7 What of the dynasty were Menkauhor Kaiu (2421–2414 BC), Djedkare Isesi (2414–2375 BC) and Unas (2375–2345), the earliest ruler to have the pyramid texts inscribed in his pyramid?
+Q8 Was sahure in turn succeeded by neferirkare kakai(2475–2455 bc)?
+Q9 What of the fourth dynasty were king menkaure(2532–2504 bc Shepseskaf (2504–2498 BC) and, perhaps, Djedefptah (2498–2496 BC)?
+Q10 Was the Meidum pyramid the first to have an above-ground burial chamber?
+../data/Development_data/set1/a1.txt
+Q1 Who, the strongest king of this period,  ruled for eleven years and maintained effective control of Upper Egypt, Nubia, and the Delta, with the possible exceptions of Xois and Avaris?
+Q2 What reigned for only twelve years,during building a series of forts in the eastern Delta region to secure Egypt against threats from Asia?
+Q3 Where has suggested these events should be interpreted as evidence of open war between two dynastic claimants?
+Q4 Was   itnecessary to subdue the power of the Nomarchs if Egypt was to be reunified under a central government?
+Q5 Who used this to launch a series of brutal campaigns in Nubia in his sixth, eighth, tenth, and sixteenth years?
+Q6 What reinforced his father's defenses in Nubia and continued the Faiyum land reclamation system?
+Q7 Where, however, was basically defensive in its military strategy, with fortifications built at the First Cataract of the Nile, in the Delta and across the Sinai Isthmus?
+Q8 Was it not until the middle kingdom?
+Q9 What ruled no more than four years,and as she apparently had no heir?
+Q10 Was the leader of this expedition his vizier amenemhat the first king of the 12th Dynasty?
+../data/Development_data/set1/a2.txt
+Q1 Who was bold enough to perform rituals to Aten?
+Q2 What eventually founded the Twenty-First dynasty at Tanis?
+Q3 Where, similarly, in response to very successful 17th century attacks by of Kush, the New Kingdom felt compelled to expand far south into Nubia and hold wide territories in the Near East?
+Q4 What in Canaan may have contributed to the formation of new states, such as Philistia, in this region after the collapse of the Egyptian Empire?
+Q5 Where followed the Second Intermediate Period and was succeeded by the Third Intermediate Period?
+Q6 What is the Hekla 3 eruption of the Hekla volcano in Iceland but the dating of this remains disputed?
+Q7 Where was able to obtain wealth and stability under Ramesses' rule of over half a century?
+Q8 What of reconquest culminated in the battle of kades?
+Q9 What of the New Kingdom between 1570 BC and 1544 BC?
+Q10 What of the battle was undecided, with both sides claiming victory at their home front, and ultimately resulting in a peace treaty between the two nations?
+../data/Development_data/set1/a3.txt
+Q1 What has many biradical and perhaps monoradical roots, in contrast to the Semitic preference for triradical roots?
+Q2 Are the Pyramid Texts the largest body of literature written in this phase of the language?
+Q3 What have assigned generic sounds to these values asamatter of convenienc?
+Q4 Is coptic the name given to the stage of the language at the time of Christianisation?
+Q5 What in phrases are after the nouns they modify: "(the) great god" (nṯr ꜥꜣ)?
+Q6 Is demotic the name of the script derived from hieratic beginning in the 7th century BC?
+Q7 What is the use of the Greek alphabet adapted for Egyptian phonology, first developed in the Ptolemaic period, and gradually replacing the use of the Demotic script in about the 4th to 5th centuries CE?
+Q8 Was it also the language of New Kingdom administration?
+Q9 What of this is Zaphnath-Paaneah, the Egyptian name given to Joseph?
+Q10 Was this transition taking place in the later period of the Eighteenth Dynasty of Egypt (known as the Amarna Period)?
+../data/Development_data/set1/a4.txt
+Q1 What has many biradical and perhaps monoradical roots, in contrast to the Semitic preference for triradical roots?
+Q2 Are the Pyramid Texts the largest body of literature written in this phase of the language?
+Q3 What have assigned generic sounds to these values asamatter of convenienc?
+Q4 Is coptic the name given to the stage of the language at the time of Christianisation?
+Q5 What in phrases are after the nouns they modify: "(the) great god" (nṯr ꜥꜣ)?
+Q6 Is demotic the name of the script derived from hieratic beginning in the 7th century BC?
+Q7 What is the use of the Greek alphabet adapted for Egyptian phonology, first developed in the Ptolemaic period, and gradually replacing the use of the Demotic script in about the 4th to 5th centuries CE?
+Q8 Was it also the language of New Kingdom administration?
+Q9 What of this is Zaphnath-Paaneah, the Egyptian name given to Joseph?
+Q10 Was this transition taking place in the later period of the Eighteenth Dynasty of Egypt (known as the Amarna Period)?
+../data/Development_data/set1/a5.txt
+Q1 What was the bow and arrow?
+Q2 Where, after the conquest by alexander the great, was heavily hellenised and the main military force became the infantry phalanx?
+Q3 Were the Egyptians trapped at this time; their government had collapsed?
+Q4 What was thus more or less protecte?
+Q5 Where reached its pinnacle during the new kingdom,afte?
+Q6 Was during the three kingdoms Egypt unified under one government?
+Q7 What were commonly "horn bows", made by joining a pair of antelope horns with a central piece of wood?
+Q8 Is his claim?
+Q9 What were flin?
+Q10 Is it in this way the New Kingdom army was different than its two preceding kingdoms?
+../data/Development_data/set1/a6.txt
+Q1 Who, for example, is the main actor of the famous Papyrus Westcar from the 13th dynasty?
+Q2 What therefore already had no pyramidion anymore?
+Q3 Are two further objects on display at the Roemer- und Pelizaeus-Museum Hildesheim?
+Q4 Who also entertained contacts with Byblos?
+Q5 What to the pyramid is on the northern side?
+Q6 Is a possible part of the necropolis of Khufu the famous Great Sphinx of Giza?
+Q7 Who and his pyramid are furthermore the objects of pseudoscientific theories ignoring archaeological evidence or even falsifying it?
+Q8 What used was a mixture of gypsum, sand, pulverized limestone and water?
+Q9 Is a similar object on display at the State Collection of Egyptian Art in Munich?
+Q10 Who believes Khufu himself would never have allowed the display of such a comparatively sloppy work?
+../data/Development_data/set1/a7.txt
+Q1 Who, in his third regnal year, under the influence of his advisors, reversed several changes made during his father's reign?
+Q2 What was his father's sister and wife, whose name is unknown but whose remains are positively identified as "The Younger Lady" mummy found in KV35?
+Q3 Were several pathologies including Köhler disease II diagnosed in Tutankhamun; none alone would have caused death?
+Q4 Who, diplomatic relations with other kingdoms had been neglected, and sought to restore them, in particular with the Mitanni?
+Q5 What was most likely Sennedjem?
+Q6 Is although there some speculation the consensus is?
+Q7 Who, on his ascension to the throne, took a praenomen?
+Q8 What was the most popular exhibition in the Museum's history?
+Q9 Was his teacher most likely Sennedjem?
+Q10 Who, after a systematic search, discovered the actual tomb of Tutankhamun (KV62) in November 1922?
+../data/Development_data/set1/a8.txt
+Q1 Who also carries the crook and flail?
+Q2 What may have been a Hellenization of "Osiris-Apis"?
+Q3 Where (1985) takes up this same compound but explains st-jrt as signifying "product, something made", Osiris representing the product of the ritual mummification process?
+Q4 Were these ceremonies fertility rites?
+Q5 Who managed to remove the coffin and open it, but Osiris was already dead?
+Q6 What of punishment may have influenced medieval perceptions of the inferno in hell via early Christian and Coptic texts?
+Q7 What recovered all the parts of Osiris' body, except the phallus, and secretly buried them?
+Q8 What symbolized Osiris rising from the dead?
+Q9 What was consequently said to be Horus' father, as Banebdjed was an aspect of Osiris?
+Q10 What was hunting one night and came across the body of Osiris?
+../data/Development_data/set1/a9.txt
+Q1 Who became Caesar’s mistress and gave birth to their son Ptolemy Caesar in 47 BC, nine months after their first meeting?
+Q2 What was enraged?
+Q3 Where, Caesarion, Cleopatra's son by Caesar, was proclaimed pharaoh by the Egyptians after fell to Octavian?
+Q4 Is the oldest source strabo?
+Q5 Who committed suicide after losing the Battle of Actium to Octavian's forces, and Cleopatra followed suit?
+Q6 What was married to her young brother,but she quickly made it clea?
+Q7 Where, after her reign, became a province of the recently established Roman Empire?
+Q8 Was caesar enraged?
+Q9 Who later elevated Caesarion, her son with Caesar, to co-ruler in name?
+Q10 What was one of the main causes of Cleopatra's fall from power shortly afterward?
+../data/Development_data/set1/a10.txt
+Q1 Who, writing in 2002,gregory l. possehl concluded its association with the water buffalo, and its posture as one of ritual discipline, regarding it as would be going too far?
+Q2 What sproat,and witzel have disputed this finding,pointing ou?
+Q3 Where, following independence,the bulk of the archaeological finds were inherited by pakistan with new discoveries now has 50% more sites than Pakistan?
+Q4 Was the Indus Valley Civilisation site hit by almost 10 feet of water as the Sutlej Yamuna link canal overflowed?
+Q5 Who  Rai Bahadur Daya Ram Sahni and Madho Sarup Vats began excavating Harappa in 1921, finding buildings and artefacts indicative of an ancient civilisation?
+Q6 What started under an archaeological team from Gujarat State Department of Archaeology and the Museum of the University of Pennsylvania in 1982–83?
+Q7 Where, in earlier publications,also stated but more recently heggarty and renfrew not?
+Q8 Were among the artefacts discovered beautiful glazed faïence beads?
+Q9 Who and alf hiltebeitel also rejected marshall 's conclusions,with the former claiming the Buffalo God and the surrounding animals with vahanas (vehicles) of deities for the four cardinal directions?
+Q10 What then migrated towards the ganges basin in the eas?
+../data/Development_data/set2/a1.txt
+Q1 Who began feeling remorse?
+Q2 What was one of the largest empires of the world in its time?
+Q3 Where Ambassadors from the Seleucid Empire (such as Deimachus) and visited his courts?
+Q4 Is the slaying of an elephant punishable by death?
+Q5 Who helped convene the third buddhist council of india 's and south asia 's buddhist orders near his capitalacounci?
+Q6 What was the largest to have ever existed in the Indian subcontinent, spanning over 5 million square kilometres (1.9 million square miles) at its zenith under Ashoka?
+Q7 Where " after the death of Alexander, had assassinated his prefects, as if shaking the burden of servitude?
+Q8 Is theft of very rare occurrence?
+Q9 Who implemented principles of ahimsa by banning hunting and violent sports activity and ending indentured and forced labor (many thousands of people in war-ravaged Kalinga had been forced into hard labour and servitude)?
+Q10 What were to train a guerilla army under Chandragupta's command?
+../data/Development_data/set2/a2.txt
+Q1 Who his successor satakarni conquered western Malwa, Anupa (Narmada valley) and Vidarbha, taking advantage of the turmoil caused by Greek invasions of northern India?
+Q2 What theorize?
+Q3 Where was also part of his kingdom?
+Q4 Is it a painting of an elephant named Bodhisattva with six tusks?
+Q5 Who, according to alain daniélou, was friendly with Satakarni, and only crossed his kingdom without any clashes?
+Q6 What theorized although they first established their empire in western Deccan after having served as Mauryan subordinates?
+Q7 Is the earliest extant satavahana inscription from the nashik cave 19?
+Q8 Who assumed the titles Raja-Raja (King of Kings) and Maharaja (Great King), and was described as the Lord of Vindhya?
+Q9 What theorized but had to be moved to Pratishthana because of Saka-Kushana incursions from the north-west?
+Q10 Is the only difference?
+../data/Development_data/set2/a3.txt
+Q1 Who has regretted the loss of the latter part of these important records?
+Q2 What of the Shungas gradually weakened?
+Q3 Where, on the contrary, according to the yavanarajya inscription, was probably under the control of Indo-Greeks from some time between 180 BCE and 100 BCE, and remained so as late as 70 BCE?
+Q4 Are some indian scholars of the opinion?
+Q5 Who has translated the expression by"the royal palace,the caitya,suggestin?
+Q6 What on the subcontinent also progressed with the rise of the mathura schoo?
+Q7 Where, meanwhile, and much of the Punjab passed into the hands of the Indo-Greeks and the Deccan Plateau to the Satavahana dynasty?
+Q8 Is it consideredafact?
+Q9 What ruled for 36 years and was succeeded by his son Agnimitra?
+Q10 Was agnimitra viceroy of vidisha?
+../data/Development_data/set2/a4.txt
+Q1 Who defeated Tianzhu [North-western India] and installed Generals to supervise and lead it?
+Q2 What reached the Hellenic kingdom of Greco-Bactria (in northern Afghanistan and Uzbekistan) around 135 BC?
+Q3 Who expanded the Kushan Empire into the northwest of the South Asia?
+Q4 What reported possible child of Vasudeva III, ruling in Kandahar, uncertain?
+Q5 Who invaded Anxi (Indo-Parthia), and took the Gaofu (Kabul) region?
+Q6 What represented a wide variety of faiths including Zoroastrianism, Buddhism, and possibly Saivism?
+Q7 Who invaded Anxi [Indo-Parthia] and took the Gaofu [Kabul] region?
+Q8 What resettled to the southeast in areas of the Hindu Kush and the Indus basin (in present-day Afghanistan and Pakistan), occupying the western part of the Indo-Greek Kingdom?
+Q9 Who issued an extensive series of coins and inscriptions?
+Q10 What retreated and paid tribute to the Chinese Empire during the reign of emperor He of Han (89–106)?
+../data/Development_data/set2/a5.txt
+Q1 Who, despite many conflicts with the cholas in the south, someshvara had managed to maintain control over the northern territories in Konkan, Gujarat, Malwa and Kalinga during his rule?
+Q2 What was more available to women in the royal and affluent urban families?
+Q3 Where the big provinces were called mandala and under them were further divided into Kampanas (groups of villages) and finally a Bada (village)?
+Q4 Were notable among them Jagaddala Somanatha's Karnataka Kalyana Karaka?
+Q5 Who defeated Chalukya Someshvara IV and Seuna Bhillama V bringing large regions in the Krishna River valley under the Hoysala domains, but was unsuccessful against Kalachuris?
+Q6 What was not only an able warrior but alsoadevout king as indicated by his numerous inscription?
+Q7 Where notable among them were Kalyana Karaka?
+Q8 Is the Kedareswara Temple ( 1060 ) at Balligavin example of a transitional Chalukya-Hoysala architectural style?
+Q9 Who in Gadag district and Sudi in Dharwad district were the main mints (Tankhashaley)?
+Q10 What was the possibility of theft from brigand?
+../data/Development_data/set2/a6.txt
+Q1 Who  in a 1545 letter to John III, requested for an Inquisition to be installed in Goa?
+Q2 What was the sacrificial religion of the early Indo-Aryans, speakers of early Old Indic dialects, ultimately deriving from the Proto-Indo-Iranian peoples of the Bronze Age?
+Q3 Where, from the 5th to the 13th century, had very powerful Indian colonial empires and became extremely active in Hindu and Buddhist architectural and artistic creation?
+Q4 Is satya the principle of integration rooted in the Absolute?
+Q5 Who (aša) is the Avestan language term corresponding to Vedic language ṛta?
+Q6 What were Ramana Maharshi, B.K.S?
+Q7 Where, at this time, started to strongly influence Southeast Asian countries?
+Q8 Is the result an"universal achievement"?
+Q9 Who and his pupil Swami Vivekananda led a reform in Hinduism in the late 19th century?
+Q10 What were australoid?
+../data/Development_data/set2/a7.txt
+Q1 Who, in honour of this work, received the title "Emperor among poets" (Kavichakravarthi) from King Veera Ballala II?
+Q2 What supported by royal patronage served religious, social, and judiciary purposes, elevating the king to the level of "God on earth"?
+Q3 Where, senior ministers were called pancha pradhanas, ministers responsible for foreign affairs were designated and the chief treasurer was Mahabhandari or Hiranyabhandari?
+Q4 Are these depictions generally clockwise in the traditional direction of circumambulation (pradakshina)?
+Q5 Who  a Smarta Brahmin, was the earliest well-known Brahminical writer?
+Q6 What supported scholars such as Janna, Rudrabhatta, Harihara and his nephew Raghavanka, whose works are enduring masterpieces in Kannada?
+Q7 Where (malnad regions) with its temperate climate was suitable for raising cattle and the planting of orchards and spices?
+Q8 Was another famous writing Rudraprshnabhashya by Vidyatirtha?
+Q9 Who  the Sultan of Delhi, was determined to bring South India under his domain and sent his commander, Malik Kafur, on a southern expedition to plunder the Seuna capital Devagiri in 1311?
+Q10 What thus began as subordinates of the Western Chalukya Empire and gradually established their own empire in Karnataka with such strong Hoysala kings as Vishnuvardhana, Veera Ballala II and later Veera Ballala III?
+../data/Development_data/set2/a8.txt
+Q1 Who  Agathe (2005), "Making diagrams speak, in Bhāskara I's commentary on the Aryabhaṭīya", Historia Mathematica, 32 (3): 275–302, doi:10.1016/j.hm.2004.09.001 ?
+Q2 What was probably a matter of style of exposition.?
+Q3 Where there is evidence stumbled upon both Pascal's triangle and binomial coefficients, although he did not have knowledge of the binomial theorem itself?
+Q4 Is the earliest reference employing object numbers a ca?
+Q5 Who  Agathe (2006), Expounding the Mathematical Seed?
+Q6 What was the Yukti-bhāṣā (written in Malayalam, a regional language of Kerala)?
+Q7 Was it probably a matter of style of exposition."?
+Q8 Who (c. 1500–1575) was another member of the Kerala School?
+Q9 What was Āryabhaṭīya (written 499 CE), a work on astronomy and mathematics?
+Q10 Was jyesthadeva ( c. 1500–1575 )nother member of the Kerala School?
+../data/Development_data/set2/a9.txt
+Q1 Who has borrowed extensively from Ayurveda and equally lends to it?
+Q2 What (c. 6th century BC) identified and defined 107 vital points of the human body in his Sushruta Samhita?
+Q3 Who includes strikes, kicks, grappling, preset forms, weaponry and healing methods?
+Q4 What formed the basis of the medical discipline ayurveda such as varma kalai and marma adi?
+Q5 What from the Yoga Sutras of Patanjali, as well as finger movements in the nata dances, were incorporated into the fighting arts?
+Q6 What has featured in international and Indian films such as Thacholi Othenan (film) (1964), Aromalunni (1972),Ondanondu Kaladalli (Kannada) (1978),Oru Vadakkan Veeragatha (1989), Asoka (2001), The Myth (2005), The Last Legion (2007), Manasara (2010), Urumi (film) (2011), Commando (2013), Bajirao Mastani (2015), Baaghi (2016), Veeram (2016).For more movies featuring kalaripayattu refer Kalarippayattu films?
+Q7 What has its own style, power combination, function and effectiveness?
+Q8 What in the Sangam era received regular military training in target practice, horse and elephant riding?
+Q9 What in the Sangam era received regular military training?
+Q10 What of kalaripayattu have pointed ou?
+../data/Development_data/set2/a10.txt
+Q1 What owns a Gyarados?
+Q2 Is gyarados a large sea serpent Pokémon most similar in appearance to dragons seen in Chinese mythology?
+Q3 What used Gyarados' shiny form as an example of a more dramatic change in appearance?
+Q4 Was a red Gyarados the leader of a group of Gyarados?
+Q5 What voted Gyarados as the 11th best Pokémon?
+Q6 Was it on a destructive rampage until Lance captured it?
+Q7 What was able to free himself and Lt. Surge returned it to Silver?
+Q8 What was on a destructive rampage until Lance captured it?
+Q9 What was the leader of a group of Gyarados?
+Q10 What went crazy?
+../data/Development_data/set3/a1.txt
+Q1 Who, he is loosely based on red, the player character from the generation games Pokémon Red, Green, Blue and Yellow as well as the Generation III games Pokémon FireRed and LeafGreen versions?
+Q2 What then ventured to the kalos region to challenge the kalos league,as well as learn more about mega evolutionatransformatio?
+Q3 Is though pokémon yellow has certain plot aspects the player character still named Red rather than Ash?
+Q4 Who eventually faces Paul in the quarter-finals of the Sinnoh League Festival and finally defeats him, marking the first time Ash has ever made it into the semi-finals in a Pokémon League?
+Q5 What though has certain plot aspects the player character is still named Red rather than Ash?
+Q6 Is ash 's dreamto become a Pokémon Master?
+Q7 Who honed his skill as a Pokémon trainer and was able to get all 8 badges, enabling him to compete in the Indigo League?
+Q8 What traveled to the Orange Islands with Misty and Tracey Sketchit, a Pokémon watcher, obtained all 4 badges, and competed in the Orange League to battle Drake, the Orange League Champion?
+Q9 Is the title also a parody of Pokémon?
+Q10 Who is the main protagonist of the Pokémon anime and manga series as well as on various merchandise related to the franchise?
+../data/Development_data/set3/a2.txt
+Q1 Who, they soon realised and afteraseries of failed vocal exercises,gave itapiece of frui?
+Q2 What is part of the Pokémon Tales series for very young children?
+Q3 Is " Jigglypuff 's alternate costumes in the series imply Jigglypufffemale?
+Q4 Who wrot?
+Q5 What is rubbery and stretchy?
+Q6 Is an exact limit to the size it can grow to in this manner unknown?
+Q7 What later appeared in several sequels, including Pokémon Ruby and Sapphire, Pokémon FireRed and LeafGreen, Pokémon Diamond and Pearl, and Pokémon HeartGold and SoulSilver?
+Q8 Is an example of this the full-sized Pokémon 747 aircraft by Boeing?
+Q9 What listed the"huggable pink blob"type pokémon as one of the most overused pokémon designs,statin?
+Q10 Is jigglypuff a playable character in all four Super Smash Bros. games?
+../data/Development_data/set3/a3.txt
+Q1 Who criticized charizard'symega evolution for not differing enough from charizard 's original design and turning Charizard into a dragon-type?
+Q2 What is one of several pokémon in pokémonxandy becoming either Mega Charizard X or Mega Charizard Y?
+Q3 Is charizard Ash's strongest Pokémon?
+Q4 Who expressed concern about stating "allowing popular favorites like Charizard would go over quite well"?
+Q5 What is part of the 10th Anniversary Box Set; in the Box Set's "10 Most Wanted Pokémon" countdown Charizard is listed as the third most wanted, beaten only by Pikachu and Jigglypuff?
+Q6 Is red 's Charizardthe first Pokémon to Mega Evolve in an anime?
+Q7 Who remained on Ash's team and contributed to his wins in the Orange League and parts of Johto?
+Q8 What is playable asastand-alone character in super smash bros.for nintendo 3ds and wi?
+Q9 Who stated "Charizard was an awesome Pokemon back in the day and still an excellent choice more than a decade after it was introduced.?
+Q10 What is the first Pokémon to Mega Evolve in an anime?
+../data/Development_data/set3/a4.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/Development_data/set3/a5.txt
+Q1 Who first appears in the chapter Pikachu's Excellent Adventure?
+Q2 What is among the most recognizable Pokémon, largely because it is a central character in the Pokémon anime series?
+Q3 Is meowth one of the playable characters in the Pokémon Mystery Dungeon games?
+Q4 Who has had mixed reception,game daily describing him as"adorable"and saying he should have his own gam?
+Q5 What is an urban nocturnal Pokémon, spending most of the daytime sleeping and prowling the city streets at night?
+Q6 Was a special Meowth card available with purchase of Pokémon Trading Card Video Game?
+Q7 Who originally lived in the city, and tried to impress a female Meowth named Meowzie by learning to walk on two legs and speak human language?
+Q8 What is one of the playable characters in the Pokémon Mystery Dungeon games?
+Q9 Who state?
+Q10 What later appeared in several sequels, including Pokémon Silver, Pokémon Crystal, the Red and Blue remakes Pokémon FireRed and LeafGreen, Pokémon Emerald, Pokémon Diamond, Pearl, and Platinum, and Pokémon SoulSilver?
+../data/Development_data/set3/a6.txt
+Q1 Who criticized its Mega form, despite her admiration for Gengar?
+Q2 What is the first of its evolutions to have hands and legs connected to its body?
+Q3 Is gengar a playable character in Pokkén Tournament?
+Q4 Who named Gengar her favourite from Pokémon Red and Blue?
+Q5 What is the most evolved of the three Ghost Pokémon in the First Generation?
+Q6 Is gengar the most evolved of the three Ghost Pokémon in the First Generation?
+Q7 What later appeared in several sequels, including Pokémon Gold and Silver, Pokémon FireRed and LeafGreen, Pokémon Diamond and Pearl, Pokémon HeartGold and SoulSilver, and Pokémon Black and White?
+Q8 Is it a Ghost/Poison type Pokémon?
+Q9 What named it the 17th best Pokémon?
+Q10 What note?
+../data/Development_data/set3/a7.txt
+Q1 Who further criticized the Pokémon in the magazine Advertising Age, comparing it to Little Black Sambo and suggesting its English name as also a possible derogatory remark towards blacks relating to voodoo (with its original Japanese name, Rougela, being unrelated)?
+Q2 What first appeared in the Base Set with her black-skinned design, but later reprints of this card have the purple-skinned design?
+Q3 Was however one exception in the episode Hi Ho Silver Wind!?
+Q4 What has made a number of appearances in the Pokémon Trading Card Game, with the black-skinned design (sometimes US version cards show up purple and edited before the controversy) before the Weatherford controversy, and with the purple-skinned design after Nintendo regained control of the Pokémon TCG?
+Q5 Is jynx speak inalanguage though the sound described as similar to human speech?
+Q6 What however was in the episode Hi Ho Silver Wind?
+Q7 What is the evolved form of Smoochum?
+Q8 What later appears in Pokémon Orange Islands series, in episodes still present in American rotations?
+Q9 What later appears in episodes 116 and 117 of Pokémon: Advanced Generation, with the inoffensive purple skin color?
+Q10 What listed "Humanoid" as one of the most overused Pokémon designs, listing Jynx and Mr?
+../data/Development_data/set3/a8.txt
+Q1 Who, because togepi was among the first of the new pokémon from pokémon gold and silver to appear in the anime,togepi was popular amongst fans,commentin?
+Q2 What has black eyes and three spikes on its head?
+Q3 Is its first evolution togetic?
+Q4 Who, its dove-like design is further referenced with its newly acquired empathy,as will only appea?
+Q5 What has stubby hands and round feet with two toes each?
+Q6 Who, unlike its previous forms, debuted two generations after them in Pokémon Diamond and Pearl?
+Q7 What included Togepi in a poll of younger readers on the best Pokémon?
+Q8 What is togekis?
+Q9 What is togeti?
+Q10 What listed Togepi as a nominee for younger readers to choose as the cutest Pokémon?
+../data/Development_data/set3/a9.txt
+Q1 Who is very gluttonous and is driven into a frenzy by the smell of honey?
+Q2 What called it "the greatest Pokemon of all time", and one of the most original cat Pokémon designs?
+Q3 Is it suchadocile pokémon?
+Q4 What called the character a fan favorite, further describing it as "perhaps the most American of Pokemon [sic]"?
+Q5 Was red caught Lax because he blocking the road during a bicycle race?
+Q6 What called upon it for the Sumo Conference in Ring Masters, and later used it to defeat Clair's Kingdra in their rematch?
+Q7 What compared Snorlax to the character Sleepy from Snow White and the Seven Dwarfs?
+Q8 What has received mixed reception,gamespy calling it"downright sill?
+Q9 What is also large, and it has two small pointed teeth sticking out from its lower jaw?
+Q10 What is an NPC in PokéPark Wii: Pikachu's Adventure and its sequel, PokéPark 2: Wonders Beyond?
+../data/Development_data/set3/a10.txt
+Q1 Who is a product of a revision of the Old Babylonian system in later Neo-Babylonian astronomy 6th century BC?
+Q2 What of these constellations have survived in the form of star charts,whose oldest representation appears on the statue known as the farnese atlas Hipparchus?
+Q3 Is the classical Zodiac a product of a revision of the Old Babylonian system in later Neo-Babylonian astronomy 6th century BC?
+Q4 What of this early date is the borders on a modern star map, such as epoch J2000, are already somewhat skewed and no longer perfectly vertical or horizontal?
+Q5 Were some other modern proposals unsuccessful?
+Q6 What of this system is area-mapping, i.e?
+Q7 What of western astronomy as taught during Late Antiquity and until the Early Modern period is the Almagest by Ptolemy, written in the 2nd century?
+Q8 What prepared during the Song Period is the Suzhou Astronomical Chart prepared with carvings of most stars on the planisphere of the Chinese Sky on a stone plate; it is done accurately based on observations and has the supernova of the year of 1054 in Taurus carved on it?
+Q9 What studied the stars of the southern hemisphere from 1750 until 1754 from cape of good hope000 stars using a 0.5 inches (13 mm) refracting telescope?
+Q10 What were to become obsolete or had extended name?
+../data/Development_data/set4/a1.txt
+Q1 Who (said in his commentary"named mirzam al-jawza(siriu?
+Q2 What termed sirius,isamain-sequence star of spectral type early,with an estimated surface temperature of 9,940 k. its companion,sirius,isastar isasta?
+Q3 Is with a mass of 1.02 M ☉ italmost double the 0.5–0.6 M☉ average?
+Q4 Who depicted it as one of six red-coloured stars (see the Colour controversy section below)?
+Q5 What to Sirius is Procyon, 1.61 parsecs (5.24 ly) away?
+Q6 Is sirius one of the 27 stars on the flag of brazil?
+Q7 What was the first to gain some meaningful value using his observations made in 1832–1833 and South African astronomer Thomas Maclear's observations made in 1836–1837, and was published in 1839?
+Q8 What was the standard white star in ancient China, and multiple records from the 2nd century BC up to the 7th century AD all describe Sirius as white?
+Q9 What were important to the ancient Polynesians for navigation between the many islands and atolls of the Pacific Ocean?
+Q10 What, further north, of the Bering Strait called it "Moon Dog"?
+../data/Development_data/set4/a2.txt
+Q1 Who gave stilla maris "drop of the sea" as a (false) Hebrew etymology of the name Maria?
+Q2 What is only a couple of degrees from the south Celestial pole of Mars?
+Q3 Where is the south pole star of mercur?
+Q4 Is delta Octantis the south pole star of Saturn?
+Q5 What is the closest naked-eye star to the south Celestial pole, but at apparent magnitude 5.45 it is barely visible on a clear night, making it unusable for navigational purposes?
+Q6 Is it a yellow giant 275 light years from Earth?
+Q7 What is the closest star to the northern pole of Venus?
+Q8 Is its angular separation from the pole about 1° (as of 2000)?
+Q9 What is the closest to the south pole?
+Q10 Is the celestial south pole moving toward the southern cross?
+../data/Development_data/set4/a3.txt
+Q1 Who, during the initial grinding and polishing of the mirror, analyzed its surface with two conventional refractive null correctors?
+Q2 What, however,lacked any intermediate surfaces and so required an external correction device?
+Q3 Is it expected to detect stars in the early Universe approximately 280 million years older than stars HST now detects?
+Q4 Who intended to use custom-built and extremely sophisticated computer-controlled polishing machines to grind the mirror to the required shape?
+Q5 What, in 1962, by the US National Academy of Sciences recommended the development of a space telescope as part of the space program, and in 1965 Spitzer was appointed as head of a committee given the task of defining scientific objectives for a large space telescope?
+Q6 Is hubble the only telescope designed to be serviced in space by astronauts?
+Q7 What, in 1970, established two committees, one to plan the engineering side of the space telescope project, and the other to determine the scientific goals of the mission?
+Q8 Is the HSP in the Space Place at the University of Wisconsin-Madison?
+Q9 What, in 1974, led to Congress deleting all funding for the telescope project?
+Q10 Is the current location of GHRS unclear?
+../data/Development_data/set4/a4.txt
+Q1 What appeared in the 2016 movie moan?
+Q2 Where, first, grew chill as Phaeton flew too high and encountered the celestial scorpion, its deadly sting raised to strike?
+Q3 Was although Artemis known to be a hunter herself she offered protection to all creatures?
+Q4 What battled and the scorpion killed Orion?
+Q5 Is it a large constellation located in the southern hemisphere near the center of the Milky Way?
+Q6 What is Latin for scorpion, and its symbol is  (Unicode ♏)?
+Q7 Is it an ancient constellation?
+Q8 What is a large constellation located in the southern hemisphere near the center of the Milky Way?
+Q9 Is the star once designated γ Sco ( despite being well within the boundaries of Libra )oday known as σ Lib?
+Q10 What is one of the 48 constellations identified by the Greek astronomer Ptolemy in the second century?
+../data/Development_data/set4/a5.txt
+Q1 Who  the movie Blade Runner, the dying replicant Roy Batty introspectively delivers his "Tears in Rain" soliloquy: "I've seen things you people wouldn't believe?
+Q2 What is the second brightest star in Orion, and is a semiregular variable star?
+Q3 Is in the southern hemisphere 's summer months the constellation actually not visible in antarctica because the sun does not set at?
+Q4 Who also known as beta orionis,is-type blue supergian?
+Q5 What is the twenty-seventh brightest star in the night sky?
+Q6 Is also nearby the very young star FU Orionis?
+Q7 Who held an unidentified animal skin aloft in his right hand; his hand was represented by Omicron2 Orionis and the skin was represented by the 5 stars designated Pi Orionis?
+Q8 What is the westernmost of the three stars of Orion's Belt, as well as the northernmost?
+Q9 Is hayk also the name of the Orion constellation in the Armenian translation of the Bible?
+Q10 Who watched C-beams glitter in the dark near the Tannhäuser Gate?
+../data/Development_data/set4/a6.txt
+Q1 Who Zwicky 18 is a young dwarf galaxy at a distance of 45 million light-years?
+Q2 What is Ursa Major and her son, Arcas, is Ursa Minor?
+Q3 Is i Zwicky 18 a young dwarf galaxy at a distance of 45 million light-years?
+Q4 What is a Sun-like star with a three-planet system?
+Q5 Is it the brightest infrared galaxy in the sky?
+Q6 What is a nearly face-on spiral galaxy 11.8 million light-years from Earth?
+Q7 Is m81 a nearly face-on spiral galaxy 11.8 million light-years from Earth?
+Q8 What is aliv?
+Q9 Is nGC 3079 a starburst spiral galaxy located 52 million light-years from Earth?
+Q10 What is also the brightest of the "peculiar A (Ap) stars," magnetic stars whose chemical elements are either depleted or enhanced, and appear to change as the star rotates?
+../data/Development_data/set4/a7.txt
+Q1 Who observed it again later, in 1848, using a 72-inch (1.8 m) telescope and could not confirm the supposed resemblance, but the name stuck nevertheless?
+Q2 What reveale?
+Q3 Is the Crab Pulsar believed to be about 28–30 km (17–19 mi) in diameter; it emits pulses of radiation every 33 milliseconds?
+Q4 What showe?
+Q5 Was it then?
+Q6 What taken several years apart reveal the slow expansion of the nebula, and by comparing this angular expansion with its spectroscopically determined expansion velocity, the nebula's distance can be estimated?
+Q7 Was the nebula independently rediscovered in 1758 by Charles Messier as he was observing a bright comet?
+Q8 What to account for the missing mass of the crab nebula is a phenomenon commonly seen in Wolf-Rayet stars?
+Q9 What used the chandra-ray observatory to observe saturn 's moon titan as it crossed the nebula,and found due to absorption of X-rays in its atmosphere?
+Q10 What was the first astronomical object identified with a historical supernova explosion?
+../data/Development_data/set4/a8.txt
+Q1 What of the system's mass is in the Sun, with the majority of the remaining mass contained in Jupiter?
+Q2 Where the expanding sun is expected to vaporize mercury and render uninhabitable?
+Q3 Is makemake the brightest object in the Kuiper belt after Pluto?
+Q4 What of the telescope led to the discovery of further planets and moons?
+Q5 Where  the largest planet, is 5.2 astronomical units (780,000,000 km) from the Sun and has a radius of 71,000 km (0.00047 AU), whereas the most distant planet, Neptune, is 30 AU (4.5×109 km) from the Sun?
+Q6 Is saturn the only planet of the solar system?
+Q7 What of this magnetic field and material with earth 's magnetic field funnels charged particles into earth 's upper atmospher?
+Q8 Where has 69 known satellites?
+Q9 Is the Sun a G2-type main-sequence star?
+Q10 What there are estimated to be objects with a diameter greater than 50 km, but the total mass of the Kuiper belt is thought to be only a tenth or even a hundredth the mass of Earth?
+../data/Development_data/set4/a9.txt
+Q1 Who had already shown given the cosmological principle?
+Q2 What, also, has passed stringent tests on the scale of the Solar System and binary stars?
+Q3 Where, measurements of the effects of the cosmic microwave background radiation on the dynamics of distant astrophysical systems in 2000 proved the copernican principle on a cosmological scale, is not in a central position?
+Q4 Is in this model the universe roughly the same at any point in time?
+Q5 Who in 1931 went further and suggested if projected back in time,meant until at some finite time in the past all the mass of the universe was concentrated intoasingle point"primeval atom?
+Q6 What, although similar, is not identical to the Doppler redshift?
+Q7 Is it not known though speculation abounds in the field of cosmogony?
+Q8 Who, in 1981, made a breakthrough in theoretical work on resolving certain outstanding theoretical problems in the Big Bang theory with the introduction of an epoch of rapid expansion in the early universe he called "inflation"?
+Q9 What, eventually,  most notably from radio source counts, began to favor Big Bang over Steady State?
+Q10 Was the Big Bang "small": It is misleading to visualize the Big Bang by comparing its size to everyday objects?
+../data/Development_data/set4/a10.txt
+Q1 Who classified the domestic dog as Canis familiaris (Linnaeus, 1758) and on the next page as a separate species he classified the wolf as Canis lupus (Linnaeus, 1758)?
+Q2 What with the externally observable qualities of the dog (such as appearance, movement, and temperament), separately tested qualities (such as ability or health) are not part of the judging in conformation shows?
+Q3 Are it has been estimated around 2 % of dog - related injuries treated in UK hospitalsmestic accidents?
+Q4 Who has suggeste?
+Q5 What would also have benefited from human tool use, as in bringing down larger prey and controlling fire for a range of purposes?
+Q6 Are dog breeds groups of animals?
+Q7 Who inferred the names of novel items by exclusion learning and correctly retrieved those novel items immediately and also 4 weeks after the initial exposure?
+Q8 What would also have derived enormous benefit from the dogs associated with their camps?
+Q9 Are modern dog breeds non-scientific classifications of dogs kept by modern kennel clubs?
+Q10 What, additionally, placed the taxon Canis lupus as a conserved name on the official list under this opinion?
+../data/Development_data/set5/a1.txt
+Q1 Who of the national cancer institute in frederick,maryland,remarked o?
+Q2 What took their dead cats to the sacred city of bubasti?
+Q3 Are cats ready to go to new homes at about 12 weeks of age?
+Q4 What within the Felidae are close but still uncertain, e.g?
+Q5 Is a purebred cat one whose ancestry contains only individuals of the same breed?
+Q6 What, between 70,000 and 100,000 years ago gave rise to the genetic lineage having diverged from the Near Eastern wildcat around 8,000 BC in the Middle East?
+Q7 Is another adaptation to dim light the large pupils of cats' eyes?
+Q8 What, equally, exhibited by island species, such as "predatory naivety" and ground-nesting, have also contributed to their susceptibility?
+Q9 Is aproposed explanation?
+Q10 What, furthermore,are superfecundafemale may mate with more than one male with the resul?
+../data/Development_data/set5/a2.txt
+Q1 Who, Madonna has famously quoted, "am a survivor?
+Q2 What of these symbionts in the genus cryptocercus to those in termites are such and current research strongly supports this hypothesis about their relationships?
+Q3 Are about 60 % of asthma patients in Chicagoalso sensitive to cockroach allergens?
+Q4 Who this evidence suggested in 193?
+Q5 What or first pair of wings,are tough and protective,lying asashield on top of the membranous hind wing?
+Q6 Are baits with egg killers also quite effective at reducing the cockroach population?
+Q7 What recorded the use of the "Silphe", ground up with oil, as a remedy for earache?
+Q8 Are cells most vulnerable to the effects of radiation?
+Q9 What survived twelve hours at −5 °C to −8 °C in laboratory experiments?
+Q10 Are some species capable of surviving temperatures of −188 °F (−122 °C) by manufacturing an antifreeze made out of glycerol?
+../data/Development_data/set5/a3.txt
+Q1 Who  the giant honey bee, is native and widespread across most of South and Southeast Asia?
+Q2 What of Apis have had their honey gathered by indigenous peoples for consumption?
+Q3 Where, periodically robbed of their honey by human "honey hunters", are easily capable of stinging a human being to death if provoked?
+Q4 Are drones male?
+Q5 What of defense against nest invaders, particularly wasps, is "body shaking," a violent and pendulum like swaying of the abdomen, performed by worker bees?
+Q6 Are honey bees the only extant members of the tribe Apini?
+Q7 What of honey consumed during the winter is a function of winter length and severity, but ranges in temperate climates from 15 to 50 kilograms (33 to 110 lb)?
+Q8 Are the genetics of the western honey bee A. mellifera unclear?
+Q9 What of the western honey bee A. mellifera are unclear?
+Q10 Are they popular among beekeepers in Brazil?
+../data/Development_data/set5/a4.txt
+Q1 Who emptied both barrels into it before he ventured to go near?
+Q2 What is the Asian giant hornet, at up to 5 centimetres (2.0 in) in length?
+Q3 Are eucharitids among the few parasitoids?
+Q4 What of parasitic wasp are natural predators of aphids and can help to control them?
+Q5 Is the club 's first kitblack with yellow stripes?
+Q6 What of social wasps construct their nests using some form of plant fiber (mostly wood pulp) as the primary material, though this can be supplemented with mud, plant secretions (e.g., resin), and secretions from the wasps themselves; multiple fibrous brood cells are constructed, arranged in a honeycombed pattern, and often surrounded by a larger protective envelope?
+Q7 Is the impact of the predation of wasps on economic pests difficult to establish?
+Q8 What of the family Chrysididae, the cuckoo wasps, are kleptoparasites and lay their eggs in the nests of unrelated host species?
+Q9 Is wasp ( 1957 ) science fiction book by the English writer Eric Frank Russell; it is generally considered Russell's best novel?
+Q10 What of the predation of wasps on economic pests is difficult to establish?
+../data/Development_data/set5/a5.txt
+Q1 What is a forward movement with the belly making contact with the ground and is used to transition to "high walk" or to slither over wet substrate into water?
+Q2 Where, according to the 2005 scholastic book of world records, has the largest alligator population?
+Q3 Are they will even consume carrion if they sufficiently hungry?
+Q4 What is an up on four limbs forward motion used for overland travel with the belly well up from the ground?
+Q5 Where is the only plac?
+Q6 Is it now at least 80 years old?
+Q7 What is in late spring?
+Q8 Is the mating season in late spring?
+Q9 What is now at least 80 years old?
+Q10 Is the natural sex ratio at hatching five females to one male?
+../data/Development_data/set5/a6.txt
+Q1 Who, though the taxonomic name has often been interpreted as a reference to dinosaurs' teeth, claws, and other fearsome characteristics, intended it merely to evoke their size and majesty?
+Q2 What, between 1815 and 1824,  a professor of geology at Oxford, collected more fossilized bones of Megalosaurus and became the first person to describe a dinosaur in a scientific journal?
+Q3 Where and shearing ceratopsians became extremely diverse across North America and Asia?
+Q4 Is another difficulty of determining distinctly dinosaurian features?
+Q5 Who, with the backing of prince albert, the husband of queen victoria, established the Natural History Museum, London, to display the national collection of dinosaur fossils and other biological and geological exhibits?
+Q6 What, eventually,began to accept the ide?
+Q7 Where in particular has produced many exceptional feathered dinosaur specimens due to the unique geology of its dinosaur beds, as well as an ancient arid climate particularly conducive to fossilization?
+Q8 Is the evolution of dinosaur vocalization less certain?
+Q9 Who published his findings in 1825?
+Q10 What, first, at about 215 million years ago, of basal archosauromorphs, including the protorosaurs, became extinct?
+../data/Development_data/set5/a7.txt
+Q1 Who published the results in the folio sized handbook The Natural History of British Butterflies in 1924?
+Q2 What near the ultraviolet spectrum appears to be particularly important?
+Q3 Are butterflies able to change from one mode to another rapidly?
+Q4 What of butterflies are often characteristic and some species have courtship flight displays?
+Q5 Are the first maxillae elongated intoatubular proboscis?
+Q6 What of butterfly has its own host plant range and others use a range of plant species, often including members of a common family?
+Q7 Is apossible source of the name the bright yellow male of the brimstone(gonepteryx rhamni;another is?
+Q8 What of india has female morphs the common rose and the crimson rose?
+Q9 Is it endemic to New South Wales?
+Q10 What of the butterfly is devoted to locomotion?
+../data/Development_data/set5/a8.txt
+Q1 What these were not restricted to  on the contrary, subantarctic regions harboured high diversity, and at least one giant penguin occurred in a region around 2,000 km south of the equator 35 mya, in a climate decidedly warmer than today?
+Q2 Is isabellinism different from albinism?
+Q3 What was a comical, "existentialist" penguin character in the cartoons Bloom County, Outland and Opus?
+Q4 Is penguins generally only lay one brood;the exception the little penguin?
+Q5 What was probably the heaviest, weighing 80 kg or more?
+Q6 Is the status of the rockhopper penguins also unclear?
+Q7 What was the tallest, growing nearly 1.80 meters (5.9 feet) tall?
+Q8 What were generally loon-like birds but already flightless, with short wings adapted for deep diving?
+Q9 What with on the Antarctic coasts declining, by the Priabonian more hospitable conditions for most penguins existed in the Subantarctic regions rather than in Antarctica itself?
+Q10 What, also, are those with the most southern distribution?
+../data/Development_data/set5/a9.txt
+Q1 What is steller 's sea lion000 kg (2,200 lb) and grow to a length of 10 ft (3.0 m)?
+Q2 Is one of the ways sea lions deal with the extreme pressures by limiting the amount of gas exchange?
+Q3 What of Australian sea lions from Western Australia were generally smaller in length whereas the largest skulls are from cool temperate localities?
+Q4 Is another way sea lions mitigate the oxygen obtained at the surface in dives to reduce digestion rate?
+Q5 What of the pups is surpassing the fertility rate by far?
+Q6 Are the parasites attacking the pups at such young ages; thus causing the pups to not reach the age of reproduction?
+Q7 What of this study showe?
+Q8 Is the death rates of the pups surpassing the fertility rate by far?
+Q9 What on humans are rare,but it can be very unsafe?
+Q10 Is the difference?
+../data/Development_data/set5/a10.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/noun_counting_data/a5.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/noun_counting_data/a5.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/noun_counting_data/a5.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/noun_counting_data/a5.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/noun_counting_data/a5.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/noun_counting_data/a5.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/noun_counting_data/a5.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/noun_counting_data/a5.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/noun_counting_data/a5.txt
+Q1 What is able to Mega Evolve into Mega Mewtwo Y, referred to in the film as Mewtwo's "Awakened Form" (覚醒した姿, Kakusei-shita Sugata)?
+Q2 What is catchable in Pokémon HeartGold and SoulSilver in the same location as before after defeating all of the gym leaders in Kanto?
+Q3 What is later given an opportunity to capture mewtwo in the cerulean cave the Elite Four and Blue; in the remakes Pokémon FireRed and LeafGreen this prerequisite was expanded, requiring the player to explore more thoroughly and record information on sixty Pokémon species before access to the cave would be granted?
+Q4 What of Niue released a one-dollar coin featuring the character as part of a commemorative promotion for the Pokémon franchise, with Mewtwo on one side and the nation's coat of arms on the other?
+Q5 What of mewtwo,shadow mewtwo,appears asaboss character in pokkén tournament and hasaspecial attac?
+Q6 What proved too mighty to control, destroying the laboratory and escaping?
+Q7 What such as super smash bros.melee and the pokémon mystery dungeon series,have featured mewtwo as an unlockable player character appearing once certain conditions have been met?
+Q8 What to mewtwo 's first anime portrayal have been divided;reviewers such as daily record cited it asacliché villai?
+Q9 What was also the focus of a promotion and downloadable content giveaway for Pokémon Black and White?
+Q10 What, however,praised mewtwo asacharacter with"philosophical depth"as well as for serving as"an adversary of almost infinite power and genuine malice?
+../data/noun_counting_data/a5.txt

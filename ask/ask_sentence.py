@@ -81,14 +81,19 @@ def remove_clause_helper(text):
         if t in type_list:
             exist = True
             break
+        if len(t) == 1 and len(body) > 0:
+            body = body[0:len(body)-1]
         body += t
-        body += " "
+        if len(t) > 1:
+            body += " "
+
 
     if not exist:
         return False, text
 
+    body = body.strip()
+
     if len(body) > 0:
-        body = body.strip()
         if body[len(body)-1] == ',':
             body = body[0:len(body)-1]
     pos_end = text.find(',', len(body))
