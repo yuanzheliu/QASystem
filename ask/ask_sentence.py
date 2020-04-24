@@ -2,7 +2,7 @@ import nltk
 import spacy
 
 init_score = 0
-type_list = ['who', 'where', 'what', 'how', 'which', 'when', 'while', 'why','that']
+type_list = ['who', 'where', 'what', 'how', 'which', 'when', 'while', 'why']
 nlp = spacy.load("en_core_web_lg")
 
 def analyze_structure(s):
