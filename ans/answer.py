@@ -1,19 +1,18 @@
 import sys
-
-from nltk import ne_chunk, pos_tag, word_tokenize
-from nltk.tag import StanfordNERTagger
-from nltk.tree import Tree
-
 from question_type import QuestionType
 from top_k_sentences import ArticleQuestions
 from wh import WHQ
 from yes_no import yes_no_answer
 
 if __name__ == '__main__':
-    article_file, questions_file = sys.argv[1:]
+    try:
+        article_file = sys.argv[1]
+        questions_file = sys.argv[2]
+    except:
+        print('usage: python ./answer.py <path to article> <path to questions>')
 
     # Process article and questions
-    article_questions = ArticleQuestions(article_file, questions_file, 1)
+    article_questions = ArticleQuestions(article_file, questions_file, 3)
 
     # Narrow down search range
     questions_top_sentences = article_questions.question_article_similarity()
@@ -30,5 +29,5 @@ if __name__ == '__main__':
             answer[question] = whq.find_answers()
 
     for i, (q, a) in enumerate(answer.items()):
-        print('Question {}: {}'.format(i+1, q))
-        print('Answer: {}\n'.format(a))
+        a = "A{} {}\n".format(i+1, a)
+        sys.stdout.buffer.write(a.encode('utf8'))

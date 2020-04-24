@@ -51,7 +51,3 @@ def get_when_answer(question, sentence):
                 return token.text + ' ' + token.head.text
             return token.text
     return sentence
-
-
-def get_what_answer(question, sentence):
-    return sentence

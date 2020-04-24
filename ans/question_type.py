@@ -1,10 +1,10 @@
 '''
-As of NLTK v3.3, users should avoid the Stanford NER or POS taggers from nltk.tag, 
-and avoid Stanford tokenizer/segmenter from nltk.tokenize. 
+As of NLTK v3.3, users should avoid the Stanford NER or POS taggers from
+nltk.tag, and avoid Stanford tokenizer/segmenter from nltk.tokenize.
 They are currently deprecated and will be removed in due time.
 '''
 from nltk import word_tokenize
-from nltk.parse import CoreNLPParser  # use this parser
+# from nltk.parse import CoreNLPParser  # use this parser
 
 
 class QuestionType():
@@ -24,7 +24,6 @@ class QuestionType():
             - questions_type_dict: a dictionary of {question: type}
         '''
         # Lexical Parser
-        #parser = CoreNLPParser(url='http://localhost:9000')
         questions_type_dict = {}
         '''
         for question in questions:
@@ -35,13 +34,11 @@ class QuestionType():
         for question in questions:
             questions_type_dict[question] = self.type(question.lower())
         return questions_type_dict
-    
-    def get_wh_type(self,tokens):
-        question_type = 'WHAT'
-        multi_answer = ['are','were','they','them','our','we']
-        check_len = 5
-        if len(tokens)<5:
-            check_len = len(tokens)
+
+    def get_wh_type(self, tokens):
+        question_type = 'HOW'  # 'how' question will return the whole sentence
+        # multi_answer = ['are','were','they','them','our','we']
+
         if 'who' == tokens[0] or 'whom' == tokens[0] or 'whose' == tokens[0]:
             question_type = 'PERSON'
         elif 'when' == tokens[0]:
@@ -52,33 +49,22 @@ class QuestionType():
             question_type = 'WHY'
         elif 'how' == tokens[0]:
             question_type = 'HOW'
-        
+        ''' #multi-answers question could also return the whole sentence
         # multi-answers question
         for t in tokens[:check_len]:
             if t in multi_answer:
-                question_type = 'MULTI'
+                question_type = 'MULTI' #
                 break
+        '''
         return question_type
-    '''  
-    def type(self, parse_tree, question):
-        question_type = 'unknown'
-        yesno = ["is", "are", "was", "were", "does", "did", "have", "has",
-                 "had", "can", "could", "will", "would"]
-        tokens = word_tokenize(question)
 
-        if parse_tree._label == 'SBARQ' or question.startswith('wh') or question.startswith('ho'):
-            question_type = self.get_wh_type(parse_tree,tokens)
-        elif parse_tree._label == 'SQ' or tokens[0] in yesno:
-            question_type = 'YESNO'
-        return question_type
-    '''
-    def type(self,question):
-        question_type = 'WHAT'
+    def type(self, question):
+        question_type = 'HOW'  # default question type to return the whole sentence
         tokens = word_tokenize(question)
         yesno = ["is", "are", "was", "were", "does", "did", "have", "has",
                  "had", "can", "could", "will", "would"]
         if question.startswith('wh') or question.startswith('ho'):
             question_type = self.get_wh_type(tokens)
         elif tokens[0] in yesno:
-            question_type ='YESNO'
+            question_type = 'YESNO'
         return question_type

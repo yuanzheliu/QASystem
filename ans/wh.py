@@ -1,7 +1,7 @@
 import spacy
 from nltk.tag import StanfordNERTagger
 from collections import Counter
-from parse import get_who_answer, get_where_answer, get_when_answer, get_what_answer
+from parse import get_who_answer, get_where_answer, get_when_answer
 
 
 class WHQ():
@@ -33,11 +33,7 @@ class WHQ():
             for sentence in self.top_sentences:
                 answer = get_when_answer(self.question, sentence)
                 answer_list.append(answer)
-        elif self.qtype == 'WHAT':
-            for sentence in self.top_sentences:
-                answer = get_what_answer(self.question, sentence)
-                answer_list.append(answer)
-        # how and why question return the whole sentence
+        # what, how and why question return the whole sentence
         if len(answer_list) == 0:
             return self.top_sentences[0]
         occurence_count = Counter(answer_list)
