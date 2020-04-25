@@ -3,10 +3,10 @@ from nltk import word_tokenize, pos_tag
 
 def yes_no_answer(top_sentences, question):
     question_parsed = pos_tag(word_tokenize(question))
-    keywords = []
+    keywords = set()
     for (token, pos) in question_parsed:
         if pos == 'NN' or pos == 'NNS' or pos == 'NNP' or pos == 'NNPS':
-            keywords.append(token.lower())
+            keywords.add(token.lower())
     yes = True
     for sentence in top_sentences:
         for keyword in keywords:
