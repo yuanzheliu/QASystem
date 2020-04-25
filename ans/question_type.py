@@ -1,10 +1,4 @@
-'''
-As of NLTK v3.3, users should avoid the Stanford NER or POS taggers from
-nltk.tag, and avoid Stanford tokenizer/segmenter from nltk.tokenize.
-They are currently deprecated and will be removed in due time.
-'''
 from nltk import word_tokenize
-# from nltk.parse import CoreNLPParser  # use this parser
 
 
 class QuestionType():
@@ -45,6 +39,8 @@ class QuestionType():
             question_type = 'TIME'
         elif 'where' == tokens[0]:
             question_type = 'LOCATION'
+        elif 'what' == tokens[0]:
+            question_type = 'WHAT'
         elif 'why' == tokens[0]:
             question_type = 'WHY'
         elif 'how' == tokens[0]:
