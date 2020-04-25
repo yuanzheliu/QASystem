@@ -1,9 +1,5 @@
 import sys
 
-from nltk import ne_chunk, pos_tag, word_tokenize
-from nltk.tag import StanfordNERTagger
-from nltk.tree import Tree
-
 from question_type import QuestionType
 from top_k_sentences import ArticleQuestions
 from wh import WHQ
@@ -30,5 +26,5 @@ if __name__ == '__main__':
             answer[question] = whq.find_answers()
 
     for i, (q, a) in enumerate(answer.items()):
-        print('Question {}: {}'.format(i+1, q))
-        print('Answer: {}\n'.format(a))
+        a = "A{} {}\n".format(i+1, a)
+        sys.stdout.buffer.write(a.encode('utf8'))

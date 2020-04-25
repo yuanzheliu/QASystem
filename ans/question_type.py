@@ -4,7 +4,6 @@ and avoid Stanford tokenizer/segmenter from nltk.tokenize.
 They are currently deprecated and will be removed in due time.
 '''
 from nltk import word_tokenize
-from nltk.parse import CoreNLPParser  # use this parser
 
 
 class QuestionType():

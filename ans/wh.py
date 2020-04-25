@@ -3,7 +3,6 @@ from itertools import groupby
 
 import spacy
 from nltk import ne_chunk, pos_tag, word_tokenize
-from nltk.parse.corenlp import CoreNLPDependencyParser
 from nltk.tag import StanfordNERTagger
 from nltk.tree import Tree
 
@@ -15,7 +14,7 @@ class WHQ():
         self.top_sentences = top_sentences
         self.ner = StanfordNERTagger('english.muc.7class.distsim.crf.ser.gz',
                                      'stanford-ner.jar')
-        self.spacy_nlp = spacy.load('xx_ent_wiki_sm')
+        self.spacy_nlp = spacy.load('en_core_web_lg')
 
 
     def who_question(self,sentences_ner,sentences_tag,sp_ner,sentences):
