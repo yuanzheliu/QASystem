@@ -1,68 +1,66 @@
-from nltk import word_tokenize, pos_tag
-from top_k_sentences import *
+from nltk import word_tokenize
 
 
 class QuestionType():
     def __init__(self, questions):
-        self.questions_type_dict = self.q_type(questions)
+        self.questions_type_dict = self.question_type(questions)
 
-    def q_type(self, questions):
+    def question_type(self, questions):
         '''
             Tokenize and part-of-speech tagging each question in questions,
-            find the wh-word in each question, and return the {question:
-            [wh-words]} dictionary
+            find the indicator word in each question, and return the {question:
+            type} dictionary
 
             Input:
             - questions: a list of strings with each string as a question
 
             Output:
-            - questions_wh_dict
+            - questions_type_dict: a dictionary of {question: type}
         '''
-        questions_wh_dict = {}
+        # Lexical Parser
+        questions_type_dict = {}
+        '''
         for question in questions:
-            token = word_tokenize(question)
-            token_pos = pos_tag(token)
-            questions_wh_dict[question] = self.wh_type(token_pos)
-        return questions_wh_dict
-
-    def wh_type(self, q_pos):
+            parse_question = list(parser.raw_parse(question))
+            parse_tree = parse_question[0][0]
+            questions_type_dict[question] = self.type(parse_tree,question.lower())
         '''
-            Extract wh-words from a tokenized and tagged question, assign types
-            ('PERSON', 'GPE', 'TIME', 'REASON', 'ORGANIZATION', 'WAY', 'unknown')
-            to each wh-word.
+        for question in questions:
+            questions_type_dict[question] = self.type(question.lower())
+        return questions_type_dict
 
-            Input:
-            - q_pos: a tokenized and tagged sentence as a list of (token, tag)
-              tuples
+    def get_wh_type(self, tokens):
+        question_type = 'HOW'  # 'how' question will return the whole sentence
+        # multi_answer = ['are','were','they','them','our','we']
 
-            Output:
-            - wh_types: a list of types of wh-words
+        if 'who' == tokens[0] or 'whom' == tokens[0] or 'whose' == tokens[0]:
+            question_type = 'PERSON'
+        elif 'when' == tokens[0]:
+            question_type = 'TIME'
+        elif 'where' == tokens[0]:
+            question_type = 'LOCATION'
+        elif 'what' == tokens[0]:
+            question_type = 'WHAT'
+        elif 'why' == tokens[0]:
+            question_type = 'WHY'
+        elif 'how' == tokens[0]:
+            question_type = 'HOW'
+        ''' #multi-answers question could also return the whole sentence
+        # multi-answers question
+        for t in tokens[:check_len]:
+            if t in multi_answer:
+                question_type = 'MULTI' #
+                break
         '''
-        # be careful for whom->NNP and whose->JJ questions!!
-        poses = ['WP', 'WP$', 'WRB', 'WDT']
-        person = ['who', 'whom', 'whose']
-        location = ['where']
-        time = ['when']
-        reason = ['why']
-        object = ['what', 'which']
-        way = ['how']
+        return question_type
 
-        wh_types = []
-        for token, pos in q_pos:
-            if pos in poses:
-                wh = token.lower()
-                if wh in person:
-                    wh_types.append('PERSON')
-                elif wh in location:
-                    wh_types.append('GPE')
-                elif wh in time:
-                    wh_types.append('TIME')
-                elif wh in reason:
-                    wh_types.append('REASON')
-                elif wh in object:
-                    wh_types.append('ORGANIZATION')
-                elif wh in way:
-                    wh_types.append('WAY')
-                else:
-                    wh_types.append('unknown')
-        return wh_types
+    def type(self, question):
+        question_type = 'HOW'  # default question type to return the whole sentence
+        tokens = word_tokenize(question)
+        yesno = ["is", "are", "was", "were", "does", "did", "have", "has",
+                 "had", "can", "could", "will", "would"]
+        if question.startswith('wh') or question.startswith('ho'):
+            question_type = self.get_wh_type(tokens)
+        elif tokens[0] in yesno:
+            question_type = 'YESNO'
+        return question_type

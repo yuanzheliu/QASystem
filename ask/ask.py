@@ -5,7 +5,7 @@ import sys
 from nltk import sent_tokenize
 import heapq
 
-test = True
+test = False
 
 class model_ask(): 
     def __init__(self, sentences, num_questions):
@@ -103,7 +103,8 @@ if __name__ == "__main__":
     answers = [q[2] for q in result]
     i = 1
     for (i, q) in enumerate(questions):
-        a = "Q{} {}\n".format(i + 1, q)
+        #a = "Q{} {}\n".format(i + 1, q)
+        a = "{}\n".format(q)
         sys.stdout.buffer.write(a.encode('utf8'))
         if test:
             a = "A{} {}\n".format(i + 1, answers[i])

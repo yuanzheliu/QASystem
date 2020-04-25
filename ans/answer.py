@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 from question_type import QuestionType
 from top_k_sentences import ArticleQuestions

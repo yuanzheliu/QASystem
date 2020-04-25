@@ -10,7 +10,7 @@ apt-get -y install python3-pip python3-dev && \
 pip3 install --upgrade pip && \
 pip3 install thinc && \
 pip3 install spacy && \
-python3 -m spacy download en_core_web_sm
+python3 -m spacy download en_core_web_lg
 
 RUN pip3 install fuzzywuzzy
 RUN pip3 install singledispatch
@@ -20,7 +20,16 @@ python3 -c "import nltk; nltk.download(['punkt', 'averaged_perceptron_tagger', '
 RUN pip3 install python-Levenshtein 
 
 RUN mkdir docker
-ADD . /docker/
+ADD answer /docker/
+ADD ask /docker/
+ADD ask_sentence.py /docker/
+ADD english.muc.7class.distsim.crf.ser.gz /docker/
+ADD parse.py /docker/
+ADD question_type.py /docker/
+ADD stanford-ner.jar /docker/
+ADD top_k_sentences.py /docker/
+ADD wh.py /docker/
+ADD yes_no.py /docker/
 
 CMD ["chmod 777 ask"]
 CMD ["chmod 777 answer"]
