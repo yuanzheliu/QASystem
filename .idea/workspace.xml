@@ -2,108 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a332ff29-b3d8-47ef-a1c9-e4e1d38e2857" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ans/bashcreate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ans/help_file/correct_answer.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ans/help_file/egypt_questions.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryrun/data/set1-football.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryrun/data/set2-constellations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryrun/data/set3-languages.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryrun/data/set4-movies.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ans/answer.py" afterPath="$PROJECT_DIR$/ans/answer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ans/parse.py" afterPath="$PROJECT_DIR$/ans/parse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ask/ask.py" afterPath="$PROJECT_DIR$/ask/ask.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ask/bashcreate.py" afterPath="$PROJECT_DIR$/ask/bashcreate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ask/test.sh" afterPath="$PROJECT_DIR$/ask/test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ask/test2.txt" afterPath="$PROJECT_DIR$/ask/test2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a1.htm" afterPath="$PROJECT_DIR$/dryrun/data/set1/a1.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a1.txt" afterPath="$PROJECT_DIR$/dryrun/data/set1/a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a10.htm" afterPath="$PROJECT_DIR$/dryrun/data/set1/a10.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a10.txt" afterPath="$PROJECT_DIR$/dryrun/data/set1/a10.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a2.htm" afterPath="$PROJECT_DIR$/dryrun/data/set1/a2.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a2.txt" afterPath="$PROJECT_DIR$/dryrun/data/set1/a2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a3.htm" afterPath="$PROJECT_DIR$/dryrun/data/set1/a3.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a3.txt" afterPath="$PROJECT_DIR$/dryrun/data/set1/a3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a4.htm" afterPath="$PROJECT_DIR$/dryrun/data/set1/a4.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a4.txt" afterPath="$PROJECT_DIR$/dryrun/data/set1/a4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a5.htm" afterPath="$PROJECT_DIR$/dryrun/data/set1/a5.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a5.txt" afterPath="$PROJECT_DIR$/dryrun/data/set1/a5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a6.htm" afterPath="$PROJECT_DIR$/dryrun/data/set1/a6.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a6.txt" afterPath="$PROJECT_DIR$/dryrun/data/set1/a6.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a7.htm" afterPath="$PROJECT_DIR$/dryrun/data/set1/a7.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a7.txt" afterPath="$PROJECT_DIR$/dryrun/data/set1/a7.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a8.htm" afterPath="$PROJECT_DIR$/dryrun/data/set1/a8.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a8.txt" afterPath="$PROJECT_DIR$/dryrun/data/set1/a8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a9.htm" afterPath="$PROJECT_DIR$/dryrun/data/set1/a9.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set1/a9.txt" afterPath="$PROJECT_DIR$/dryrun/data/set1/a9.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a1.htm" afterPath="$PROJECT_DIR$/dryrun/data/set2/a1.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a1.txt" afterPath="$PROJECT_DIR$/dryrun/data/set2/a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a10.htm" afterPath="$PROJECT_DIR$/dryrun/data/set2/a10.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a10.txt" afterPath="$PROJECT_DIR$/dryrun/data/set2/a10.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a2.htm" afterPath="$PROJECT_DIR$/dryrun/data/set2/a2.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a2.txt" afterPath="$PROJECT_DIR$/dryrun/data/set2/a2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a3.htm" afterPath="$PROJECT_DIR$/dryrun/data/set2/a3.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a3.txt" afterPath="$PROJECT_DIR$/dryrun/data/set2/a3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a4.htm" afterPath="$PROJECT_DIR$/dryrun/data/set2/a4.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a4.txt" afterPath="$PROJECT_DIR$/dryrun/data/set2/a4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a5.htm" afterPath="$PROJECT_DIR$/dryrun/data/set2/a5.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a5.txt" afterPath="$PROJECT_DIR$/dryrun/data/set2/a5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a6.htm" afterPath="$PROJECT_DIR$/dryrun/data/set2/a6.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a6.txt" afterPath="$PROJECT_DIR$/dryrun/data/set2/a6.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a7.htm" afterPath="$PROJECT_DIR$/dryrun/data/set2/a7.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a7.txt" afterPath="$PROJECT_DIR$/dryrun/data/set2/a7.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a8.htm" afterPath="$PROJECT_DIR$/dryrun/data/set2/a8.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a8.txt" afterPath="$PROJECT_DIR$/dryrun/data/set2/a8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a9.htm" afterPath="$PROJECT_DIR$/dryrun/data/set2/a9.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set2/a9.txt" afterPath="$PROJECT_DIR$/dryrun/data/set2/a9.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a1.htm" afterPath="$PROJECT_DIR$/dryrun/data/set3/a1.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a1.txt" afterPath="$PROJECT_DIR$/dryrun/data/set3/a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a10.htm" afterPath="$PROJECT_DIR$/dryrun/data/set3/a10.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a10.txt" afterPath="$PROJECT_DIR$/dryrun/data/set3/a10.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a2.htm" afterPath="$PROJECT_DIR$/dryrun/data/set3/a2.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a2.txt" afterPath="$PROJECT_DIR$/dryrun/data/set3/a2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a3.htm" afterPath="$PROJECT_DIR$/dryrun/data/set3/a3.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a3.txt" afterPath="$PROJECT_DIR$/dryrun/data/set3/a3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a4.htm" afterPath="$PROJECT_DIR$/dryrun/data/set3/a4.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a4.txt" afterPath="$PROJECT_DIR$/dryrun/data/set3/a4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a5.htm" afterPath="$PROJECT_DIR$/dryrun/data/set3/a5.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a5.txt" afterPath="$PROJECT_DIR$/dryrun/data/set3/a5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a6.htm" afterPath="$PROJECT_DIR$/dryrun/data/set3/a6.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a6.txt" afterPath="$PROJECT_DIR$/dryrun/data/set3/a6.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a7.htm" afterPath="$PROJECT_DIR$/dryrun/data/set3/a7.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a7.txt" afterPath="$PROJECT_DIR$/dryrun/data/set3/a7.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a8.htm" afterPath="$PROJECT_DIR$/dryrun/data/set3/a8.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a8.txt" afterPath="$PROJECT_DIR$/dryrun/data/set3/a8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a9.htm" afterPath="$PROJECT_DIR$/dryrun/data/set3/a9.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set3/a9.txt" afterPath="$PROJECT_DIR$/dryrun/data/set3/a9.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a1.htm" afterPath="$PROJECT_DIR$/dryrun/data/set4/a1.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a1.txt" afterPath="$PROJECT_DIR$/dryrun/data/set4/a1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a10.htm" afterPath="$PROJECT_DIR$/dryrun/data/set4/a10.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a10.txt" afterPath="$PROJECT_DIR$/dryrun/data/set4/a10.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a2.htm" afterPath="$PROJECT_DIR$/dryrun/data/set4/a2.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a2.txt" afterPath="$PROJECT_DIR$/dryrun/data/set4/a2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a3.htm" afterPath="$PROJECT_DIR$/dryrun/data/set4/a3.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a3.txt" afterPath="$PROJECT_DIR$/dryrun/data/set4/a3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a4.htm" afterPath="$PROJECT_DIR$/dryrun/data/set4/a4.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a4.txt" afterPath="$PROJECT_DIR$/dryrun/data/set4/a4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a5.htm" afterPath="$PROJECT_DIR$/dryrun/data/set4/a5.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a5.txt" afterPath="$PROJECT_DIR$/dryrun/data/set4/a5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a6.htm" afterPath="$PROJECT_DIR$/dryrun/data/set4/a6.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a6.txt" afterPath="$PROJECT_DIR$/dryrun/data/set4/a6.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a7.htm" afterPath="$PROJECT_DIR$/dryrun/data/set4/a7.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a7.txt" afterPath="$PROJECT_DIR$/dryrun/data/set4/a7.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a8.htm" afterPath="$PROJECT_DIR$/dryrun/data/set4/a8.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a8.txt" afterPath="$PROJECT_DIR$/dryrun/data/set4/a8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a9.htm" afterPath="$PROJECT_DIR$/dryrun/data/set4/a9.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/data/set4/a9.txt" afterPath="$PROJECT_DIR$/dryrun/data/set4/a9.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/docker/Dockerfile" afterPath="$PROJECT_DIR$/dryrun/docker/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/docker/answer" afterPath="$PROJECT_DIR$/dryrun/docker/answer" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/docker/ask" afterPath="$PROJECT_DIR$/dryrun/docker/ask" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/docker/ask_sentence.py" afterPath="$PROJECT_DIR$/dryrun/docker/ask_sentence.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/docker/question_type.py" afterPath="$PROJECT_DIR$/dryrun/docker/question_type.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/docker/top_k_sentences.py" afterPath="$PROJECT_DIR$/dryrun/docker/top_k_sentences.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/test.sh" afterPath="$PROJECT_DIR$/dryrun/test.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/docker/wh.py" afterPath="$PROJECT_DIR$/dryrun/docker/wh.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dryrun/test_questions.txt" afterPath="$PROJECT_DIR$/dryrun/test_questions.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,20 +19,32 @@
       <file leaf-file-name="answer" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dryrun/docker/answer">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="-61">
+              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ans/answer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wh.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dryrun/docker/wh.py">
+      <file leaf-file-name="ask" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dryrun/docker/ask">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="720">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <marker date="1587854109000" expanded="true" signature="3810:3859" ph="..." />
               </folding>
             </state>
           </provider>
@@ -142,7 +54,17 @@
         <entry file="file://$PROJECT_DIR$/dryrun/test.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set1a1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ask/data/set1a1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,18 +73,28 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dryrun/docker/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_questions.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wh.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dryrun/docker/wh.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_questions.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dryrun/test_questions.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -225,9 +157,10 @@
         <option value="$PROJECT_DIR$/dryrun/docker/parse.py" />
         <option value="$PROJECT_DIR$/ans/parse.py" />
         <option value="$PROJECT_DIR$/dryrun/docker/answer" />
-        <option value="$PROJECT_DIR$/dryrun/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/dryrun/test.sh" />
         <option value="$PROJECT_DIR$/dryrun/test_questions.txt" />
+        <option value="$PROJECT_DIR$/dryrun/docker/Dockerfile" />
+        <option value="$PROJECT_DIR$/dryrun/docker/wh.py" />
       </list>
     </option>
   </component>
@@ -582,7 +515,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27018633" sideWeight="0.8851563" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27018633" sideWeight="0.8851563" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -591,11 +524,24 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.11484375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27018633" sideWeight="0.8851563" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,19 +557,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ask/a1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ask/words.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,9 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-          <folding>
-            <element signature="e#24#34#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,67 +595,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/Development_data/set2/a2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="501" lean-forward="false" selection-start-line="4" selection-start-column="501" selection-end-line="4" selection-end-column="501" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Development_data/set2/a5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="43" column="490" lean-forward="false" selection-start-line="43" selection-start-column="483" selection-end-line="43" selection-end-column="490" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Development_data/set2/a6.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="30" column="409" lean-forward="false" selection-start-line="30" selection-start-column="409" selection-end-line="30" selection-end-column="409" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Development_data/set3/a4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-402">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Development_data/set3/a3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Development_data/set3/a1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Development_data/set3/a2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="80" column="505" lean-forward="false" selection-start-line="80" selection-start-column="498" selection-end-line="80" selection-end-column="505" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Development_data/set2/a2.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Development_data/set2/a5.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Development_data/set2/a6.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Development_data/set3/a4.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Development_data/set3/a3.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Development_data/set3/a1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Development_data/set3/a2.txt" />
     <entry file="file://$PROJECT_DIR$/data/Development_data/set1/a2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="25" column="489" lean-forward="false" selection-start-line="25" selection-start-column="454" selection-end-line="25" selection-end-column="489" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,18 +616,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/Development_data/set2/a1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="69" column="313" lean-forward="false" selection-start-line="69" selection-start-column="293" selection-end-line="69" selection-end-column="313" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Development_data/set2/a1.txt" />
     <entry file="file://$PROJECT_DIR$/data/Development_data/set1/run_all.pl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -748,51 +627,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/Development_data/set2/a4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Development_data/set2/a4.txt" />
     <entry file="file://$PROJECT_DIR$/ans/yes_no.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask/test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ask/test.sh" />
     <entry file="file://$PROJECT_DIR$/ans/question_type.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/Development_data/set4/a1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="60" column="466" lean-forward="true" selection-start-line="60" selection-start-column="466" selection-end-line="60" selection-end-column="466" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Development_data/set4/a1.txt" />
     <entry file="file://$PROJECT_DIR$/dryrun/docker/ask">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="51" column="49" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="49" />
+        <state relative-caret-position="720">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1587854109000" expanded="true" signature="3810:3859" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -802,12 +660,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="false" />
-            <marker date="1587847162000" expanded="true" signature="118:2246" ph="..." />
-            <marker date="1587847162000" expanded="true" signature="363:444" ph="..." />
-            <marker date="1587847162000" expanded="true" signature="372:444" ph="&quot;&quot;&quot;Read the article and split it into a list of sentences....&quot;&quot;&quot;" />
-            <marker date="1587847162000" expanded="true" signature="1593:1752" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1587847162000" expanded="true" signature="1593:2246" ph="..." />
-            <marker date="1587847162000" expanded="true" signature="1828:2208" ph="..." />
           </folding>
         </state>
       </provider>
@@ -816,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="3" column="325" lean-forward="false" selection-start-line="3" selection-start-column="325" selection-end-line="3" selection-end-column="548" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="148" column="17" lean-forward="false" selection-start-line="148" selection-start-column="14" selection-end-line="148" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,14 +711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask/test2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ask/test2.txt" />
     <entry file="file://$PROJECT_DIR$/ask/ask.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
@@ -879,29 +722,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/bashcreate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ask/bashcreate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/bashcreate.py" />
+    <entry file="file://$PROJECT_DIR$/ask/bashcreate.py" />
     <entry file="file://$PROJECT_DIR$/ans/answer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="e#24#34#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,20 +736,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ans/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ans/parse.py" />
     <entry file="file://$PROJECT_DIR$/dryrun/docker/ask_sentence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -937,26 +754,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dryrun/docker/yes_no.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dryrun/docker/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dryrun/docker/yes_no.py" />
+    <entry file="file://$PROJECT_DIR$/dryrun/docker/parse.py" />
     <entry file="file://$PROJECT_DIR$/ans/wh.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -965,44 +767,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dryrun/docker/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dryrun/docker/wh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dryrun/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dryrun/docker/answer">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="-61">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ask/data/set1a1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dryrun/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dryrun/test_questions.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dryrun/docker/wh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding />
         </state>
       </provider>
