@@ -12,7 +12,7 @@ if __name__ == '__main__':
         print('usage: python ./answer.py <path to article> <path to questions>')
 
     # Process article and questions
-    article_questions = ArticleQuestions(article_file, questions_file, 3)
+    article_questions = ArticleQuestions(article_file, questions_file, 1)
 
     # Narrow down search range
     questions_top_sentences = article_questions.question_article_similarity()
