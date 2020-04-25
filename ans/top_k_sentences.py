@@ -35,6 +35,7 @@ class ArticleQuestions():
             for line in f:
                 question = line.strip()
                 questions.append(question)
+        questions = list(filter(None, questions))
         return questions
 
     def question_article_similarity(self):
