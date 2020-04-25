@@ -1,6 +1,5 @@
 import spacy
 from nltk.tag import StanfordNERTagger
-from collections import Counter
 from parse import extract_wh_answer
 
 
@@ -27,9 +26,7 @@ class WHQ():
                 answer_list.append(answer)
             else:  # how and why question return the whole sentence
                 answer_list.append(self.top_sentences[0])
-        occurence_count = Counter(answer_list)
-        most_common_answer = occurence_count.most_common(1)[0][0]
-        # if there is no answer found or answer in the wrong format, return whole sentence
+        most_common_answer = max(set(answer_list), key=answer_list.count)
         if type(most_common_answer) != str or len(most_common_answer) == 0:
             return self.top_sentences[0]
         # return the most common answer
