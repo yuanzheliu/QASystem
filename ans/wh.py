@@ -26,7 +26,7 @@ class WHQ():
                 answer = extract_wh_answer(self.question, self.qtype, sentence)
                 answer_list.append(answer)
             else:  # how and why question return the whole sentence
-                return top_sentences[0]
+                answer_list.append(self.top_sentences[0])
         occurence_count = Counter(answer_list)
         most_common_answer = occurence_count.most_common(1)[0][0]
         # if there is no answer found or answer in the wrong format, return whole sentence
