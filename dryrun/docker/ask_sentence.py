@@ -167,6 +167,9 @@ def ask_bool_question(text):
     if len(body) > 0:
         body = body[0:len(body)-1]
 
+    if len(body) > 2:
+        if body[0] == ' ' and body[1] == ' ':
+            body = body[1:len(body)]
     pos = len(body) + len(key) + 1
     if pos != None:
         body += text[pos:len(text)]
