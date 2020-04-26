@@ -19,12 +19,6 @@ class QuestionType():
         '''
         # Lexical Parser
         questions_type_dict = {}
-        '''
-        for question in questions:
-            parse_question = list(parser.raw_parse(question))
-            parse_tree = parse_question[0][0]
-            questions_type_dict[question] = self.type(parse_tree,question.lower())
-        '''
         for question in questions:
             questions_type_dict[question] = self.type(question.lower())
         return questions_type_dict
@@ -45,13 +39,6 @@ class QuestionType():
             question_type = 'WHY'
         elif 'how' == tokens[0]:
             question_type = 'HOW'
-        ''' #multi-answers question could also return the whole sentence
-        # multi-answers question
-        for t in tokens[:check_len]:
-            if t in multi_answer:
-                question_type = 'MULTI' #
-                break
-        '''
         return question_type
 
     def type(self, question):

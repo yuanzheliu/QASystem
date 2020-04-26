@@ -63,4 +63,11 @@ def extract_wh_answer(question, qtype, sentence):
                 return noun_chunk
             elif noun_chunk in type_list:
                 return noun_chunk
+
+    if qtype == 'TIME':
+        for token in sentence_parsed:
+            if token.tag_ == 'CD' and token.text not in question:
+                if token.dep_ == 'nummod':
+                    return token.text + ' ' + token.head.text
+                return token.text
     return sentence

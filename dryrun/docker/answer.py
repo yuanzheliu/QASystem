@@ -21,15 +21,13 @@ if __name__ == '__main__':
 
     # Figure out the type of each question
     qt = QuestionType(article_questions.questions)
-
-    answer = {}
+    answer = []
     for question, qtype in qt.questions_type_dict.items():
         if qtype == 'YESNO':
-            answer[question] = yes_no_answer(questions_top_sentences[question], question)
+            answer.append(yes_no_answer(questions_top_sentences[question], question))
         else:
             whq = WHQ(question, qtype, questions_top_sentences[question])
-            answer[question] = whq.find_answers()
-
-    for i, (q, a) in enumerate(answer.items()):
-        a = "A{} {}\n".format(i+1, a)
+            answer.append(whq.find_answers())
+    for i, a in enumerate(answer):
+        a = "A{} {}\n".format(i + 1, a)
         sys.stdout.buffer.write(a.encode('utf8'))
