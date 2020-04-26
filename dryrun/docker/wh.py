@@ -23,7 +23,6 @@ class WHQ():
                 answer = extract_wh_answer(self.question, self.qtype, sentence)
             else:  # how and why question return the whole sentence
                 answer = self.top_sentences[0]
-        if type(answer) != str or answer is None:
+        if answer is None or len(answer) == 0 or type(answer) != str:
             return self.top_sentences[0]
-        # return the most common answer
         return answer
