@@ -9,7 +9,6 @@ class WHQ():
         self.top_sentences = top_sentences
         self.ner = StanfordNERTagger('english.muc.7class.distsim.crf.ser.gz',
                                      'stanford-ner.jar')
-        #self.spacy_nlp = spacy.load('en_core_web_lg')
 
     def find_answers(self):
         '''
@@ -24,7 +23,7 @@ class WHQ():
                 answer = extract_wh_answer(self.question, self.qtype, sentence)
             else:  # how and why question return the whole sentence
                 answer = self.top_sentences[0]
-        if  answer == None or type(answer) != str or len(answer) == 0:
+        if type(answer) != str or answer is None:
             return self.top_sentences[0]
         # return the most common answer
         return answer
