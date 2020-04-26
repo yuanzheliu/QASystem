@@ -2,7 +2,7 @@ import spacy
 from nltk import ne_chunk, word_tokenize, pos_tag
 from nltk.tree import Tree
 
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_lg')
 
 
 def extract_wh_answer(question, qtype, sentence):

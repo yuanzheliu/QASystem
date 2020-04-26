@@ -19,15 +19,13 @@ class WHQ():
             Output:
             - answer: a string phrase to answer the question
         '''
-        answer_list = []
+        answer = None
         for sentence in self.top_sentences:
             if self.qtype not in ['WHY', 'HOW']:
                 answer = extract_wh_answer(self.question, self.qtype, sentence)
-                answer_list.append(answer)
             else:  # how and why question return the whole sentence
-                answer_list.append(self.top_sentences[0])
-        most_common_answer = max(set(answer_list), key=answer_list.count)
-        if type(most_common_answer) != str or len(most_common_answer) == 0:
+                answer = self.top_sentences[0]
+        if type(answer) != str or len(answer) == 0:
             return self.top_sentences[0]
         # return the most common answer
-        return most_common_answer
+        return answer
