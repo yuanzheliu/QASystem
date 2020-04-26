@@ -104,6 +104,7 @@ if __name__ == "__main__":
     i = 1
     for (i, q) in enumerate(questions):
         a = "Q{} {}\n".format(i + 1, q)
+        #a = "{}\n".format(q)
         sys.stdout.buffer.write(a.encode('utf8'))
         if test:
             a = "A{} {}\n".format(i + 1, answers[i])
