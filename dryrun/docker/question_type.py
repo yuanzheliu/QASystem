@@ -38,7 +38,7 @@ class QuestionType():
         elif 'when' == tokens[0]:
             question_type = 'TIME'
         elif 'where' == tokens[0]:
-            question_type = 'LOCATION'
+            question_type = 'GPE'
         elif 'what' == tokens[0]:
             question_type = 'WHAT'
         elif 'why' == tokens[0]:
