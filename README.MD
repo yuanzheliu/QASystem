@@ -1,10 +1,3 @@
-# 11611 NLP Project
-Spring 2020
+# Question Generating and Answering System
 
-Sifan Liu
-
-Yanjia Duan
-
-Jinqing Xu
-
-Yuanzhe Liu
+Yanjia Duan   Sifan Liu   Jinqing Xu   Yuanzhe Liu
