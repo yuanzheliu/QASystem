@@ -1,3 +1,3 @@
 # Question Generating and Answering System
 
-Yanjia Duan   Sifan Liu   Jinqing Xu   Yuanzhe Liu
+Yanjia Duan   Sifan Liu   Yuanzhe Liu   Jinqing Xu   
